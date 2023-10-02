@@ -1,0 +1,17 @@
+
+notes from how to building an effecctive dev portfilio
+
+We need to do some work to showcase those projects, though. Even the most amazing
+portfolio project might be overlooked if an employer only sees a couple screenshots and a
+Github link. We need to guide potential employers through our work, making sure to
+highlight the most interesting, impressive, salient parts. The good stuff. Stuff that isn't
+always obvious at first glance.
+
+While the
+portfolio site is just one piece of the job-hunting puzzle, it’s a piece that can have an
+outsized impact
+
+Unless you already have extensive work experience, your side projects are the greatest asset
+you have. They are your trophies, and the portfolio site is the trophy case that highlights all
+the amazing stuff you’ve done.
+
