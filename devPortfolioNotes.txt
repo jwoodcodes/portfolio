@@ -1,5 +1,5 @@
 
-notes from how to building an effecctive dev portfilio
+notes from how to building an effective dev portfilio
 
 We need to do some work to showcase those projects, though. Even the most amazing
 portfolio project might be overlooked if an employer only sees a couple screenshots and a
@@ -14,4 +14,29 @@ outsized impact
 Unless you already have extensive work experience, your side projects are the greatest asset
 you have. They are your trophies, and the portfolio site is the trophy case that highlights all
 the amazing stuff you’ve done.
+
+pg. 7/8
+In my experience, certain kinds of projects are especially high-impact:
+• ⭐ Did you build a project to solve a specific niche problem you had, like Levi’s
+invoice-scanning app? Employers love to hear about projects like this, because it shows
+that you’re able to apply your skills in creative ways, and tackle a project from start to
+finish.
+7
+• � Is your project “alive”? Is it shipped, and are people really using it for its intended
+purpose? It’s better to have a living, breathing project with real users (even if it’s only
+a handful) over a project that was built exclusively as a demo / for the portfolio.
+
+pg. 10
+HOW MANY PROJECTS TO INCLUDE?
+At least 2. No more than 5.
+Something which can be surprising: It’s better to have 1 large polished project than 5 small
+projects.
+You want to show that you can complete a non-trivial project from start to finish. Depth is
+more important than breadth, because it shows that you have the grit and determination to
+stick through the hard parts and finish a large project.
+
+pg. 10
+Portfolios are meant to highlight your best work, they aren’t meant to be an exhaustive set of
+all of your work.
+
 
