@@ -1,6 +1,8 @@
 * put 90% of your time into four sections:
+
 1) your headline (the part under your name)
     Should include: skills and software and techs you are familar with
+    set to the job you want!
 2) your about sections
     include your accomplishments, 
 3) your experience sections:
@@ -28,5 +30,13 @@ skills section. if a potential employer ask about it be honest about your level
 of knowledge in the area but you don't have to be an expert in something to list
 it in your skills section
 
-* 
+* write post at least once a week just saying what you are working on, what you are learning,
+what challenges you may have faced and overcome.
+
+* activly seek out people and send connection request
+
+* include any completed udemy courses and both of josh's courses in your
+education section!
+
+*
 
