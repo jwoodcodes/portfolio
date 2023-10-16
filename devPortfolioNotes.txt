@@ -17,17 +17,19 @@ the amazing stuff you’ve done.
 
 pg. 7/8
 In my experience, certain kinds of projects are especially high-impact:
+
 • ⭐ Did you build a project to solve a specific niche problem you had, like Levi’s
 invoice-scanning app? Employers love to hear about projects like this, because it shows
 that you’re able to apply your skills in creative ways, and tackle a project from start to
 finish.
-7
+
 • � Is your project “alive”? Is it shipped, and are people really using it for its intended
 purpose? It’s better to have a living, breathing project with real users (even if it’s only
 a handful) over a project that was built exclusively as a demo / for the portfolio.
 
 pg. 10
 HOW MANY PROJECTS TO INCLUDE?
+
 At least 2. No more than 5.
 Something which can be surprising: It’s better to have 1 large polished project than 5 small
 projects.
@@ -38,5 +40,194 @@ stick through the hard parts and finish a large project.
 pg. 10
 Portfolios are meant to highlight your best work, they aren’t meant to be an exhaustive set of
 all of your work.
+
+pg. 11-12
+
+In fact, if you’ve spent many hours on a project, there’s a very good chance that you’ve faced
+and overcome significant technical challenges. Projects often have hidden complexity, and
+1 1
+employers are eager to hire developers who are good at solving problems. The main purpose
+of a portfolio site is to show prospective employers how you ran into technical challenges,
+and overcame them. Your projects don’t need to be flashy or feature-rich.
+This is why a detailed portfolio is so important. LinkedIn lets you add a screenshot and a
+couple paragraphs about a project, but think about how incomplete that story is. Most
+junior-developer projects look the same on the surface; the interesting stuff is below the
+surface. And a portfolio site is a great chance to guide the reader through that interesting
+stuff.
+
+pg. 12
+
+If you wait until you feel ready to start working as a developer, you’ll never start!
+
+
+pg. 14
+
+When you apply to work at a company, there are two types of people who are likely to visit
+your portfolio site as part of a screening process:
+1. HR (Human Resources) hiring managers
+2. Software developers
+Both types of people are trying to answer the same question—whether you’re worth hiring
+—but they have very different sets of criteria.
+Our job will be to create a site that communicates our awesomeness to both groups of
+people. To do that, we have to learn a little bit about what they’re looking for.
+
+pg. 14-15
+
+Generally, the first point of contact you’ll have is with an HR person. This person likely isn’t
+a software developer. Part of their job is to winnow the field; a typical junior developer job
+1 4
+posting might get up to 100+ applicants, and they’ll want to reduce that number to
+something more manageable before scheduling interviews.
+Here are some of the traits they’re hoping we’ll show in our application:
+• Competence. Has this person built professional-looking projects before?
+• Enthusiasm. Does this person seem eager to learn, excited for the kinds of work they
+would do on the job?
+• Fit. Does this person have the right kind of personality for the company? Have they
+worked with the languages and frameworks we use here?
+Critically, these folks are often very busy, since they have a lot of applicants to get through
+and many other job responsibilities to fulfill. They’ll likely make a decision about moving
+forward in the process with you within 30-60 seconds. Our portfolio will need to capture
+their attention and communicate competence, enthusiasm and fit in a very short window
+of time.
+
+pg. 15-16
+
+The nice thing is that software developers were once in your exact shoes—they remember
+what it was like, searching for their first job!
+Unlike HR hiring managers, developers generally aren’t very interested in what languages or
+frameworks you know. In fact, for junior roles, developers care much more about your
+potential rather than what you happen to know already. They want to know if you’ll be easy
+to mentor. They want to know if you have the grit to work through tough problems, and the
+humility to admit when you don’t know something.
+1 5
+It can be hard to communicate this stuff through a portfolio site, but there are definitely
+things we should avoid doing. We’ll discuss them more later in this chapter.
+
+pg. 18-19
+
+Here’s the biggest problem with this section: if you swap out the names of places and
+schools, it can apply equally well to every single bootcamp graduate. The only personal touch is the
+last line, and it’s hardly unique; everyone enjoys hanging out with their friends.
+
+In terms of tone, it uses that “professional” tone people take when trying to get a job in the
+corporate world. I suspect that this tone might still be relevant when applying to work in a
+different industry, but it’s the wrong tone for the vast majority of tech roles.
+
+pg 19-20
+
+This “About Me” section wouldn’t work for anyone else (well, unless they were willing to
+make up a big lie about their history!), and that’s the point. It’s true to who I am, and shares
+a compelling window into my personality and experience.
+
+Your personality is likely different than mine, so your “About Me” section should be
+different too! You can be more formal, if that’s where your comfort zone is. You don’t have
+to share a quirky story about how you discovered programming. But it should be interesting,
+and it should open the door to more conversation. It should sound like something you
+might say in real life.
+
+pg. 20
+
+Let’s look at this through the lens of an HR hiring manager. You have a stack of applications
+to get through, and you can only realistically give 10-20% of them interviews. You click
+through to Charlie’s portfolio site, and you see the original generic “About me” section. You
+spend 3 seconds skimming it, and decide to skip to the next section, since there’s nothing of
+interest there. Unless something else on the page catches their eye, they’ll likely move
+straight on to the next applicant in the pool. By the time they get to the end, they’ll have
+forgotten yours entirely.
+Compare that to the revised description, with the anecdotes. As their eyes skim the section,
+they catch “The Price Is Right”, which is a very unusual thing to spot on a portfolio site! They
+start reading from the beginning, and they get hooked in. They’re interested to know more
+about how you solved the problem, and what the answer was (should the contestant spin
+again??). You’ve created a memory, and a mild emotional response. After getting through
+the stack of applicants, it’s likely that yours will still be in the back of their mind. Most
+portfolio sites are generic, and it doesn’t take much to have yours stand out.
+Hiring managers care about all the things you’d expect — work experience, volunteer
+experience, projects, education, skillset — but they’re also looking for people they’d enjoy
+working with. A quirky (and, critically, inoffensive) anecdote can endear you to them.
+Someone in that stack might have had a lot more experience than you, but if they forget that
+the person exists, they won’t get the job. You might.
+
+pg. 22
+
+Be a tour guide
+You don’t want visitors to wander around on a live demo, or go spelunking in the codebase.
+We want to highlight the most impressive and interesting parts of our products!
+With a live demo, you’re taking a lot of risks:
+• Have you tested your site on the browser and/or device the visitor is using?
+• Will they follow exactly the same flow you’ve imagined? Unless you have a background
+as a senior UX designer, it’s likely that they won’t!
+• Does your app require a signup, or any other high-friction setup? Most people don’t
+have the patience to sign up for things.
+• Have you found and fixed all possible edge-case bugs? Live demos going awry happens
+so much that it’s cliché.
+Even if everything goes flawlessly, think about what isn’t conveyed in a live demo:
+• Why is this project important to you? What inspired it? Why did you choose to build
+this?
+• What are the major features that make it unique? How does it compare to existing
+products like it?
+• What did you start with? Was this built from scratch? Did you have a team? If so,
+which parts did you do? Where did the design come from? Was there any
+collaboration?
+• What was the hardest part of building this product? Where did you get stuck along the
+way?
+• When you did get stuck, how did you resolve it? How did you overcome the obstacles
+you faced?
+2 2
+• What did you learn from doing this project? How has it affected the work you’ve done
+since then?
+
+pg. 23
+
+Earlier, we spoke about how a portfolio lets us squeeze value out of our personal projects. We
+built a cool thing, but nobody knows about all the stuff that makes it compelling!
+We want to tell a story about how a project came to be. It’s much more interesting than
+showing a final product, without context. It also sends a much stronger signal to employers
+about what you can do!
+It’s probably still a good idea to include links to a live demo, mostly to serve as proof
+that you actually built the thing you’re describing. But it should be de-emphasized. Most
+folks won’t check. The people who do will likely take 10 seconds to say “yep, this is what
+they said it would be”, and bail.
+
+Narration and Personality
+You may be sensing a theme here: both the About Me section and the Projects section
+should have an element of storytelling. We don’t just want to talk about where we are now,
+we want to share some history of how we got here.
+Most folks didn’t decide when they were 5 years old to become a programmer—we took a
+winding path that led us to where we are now. We want to capture that.
+
+pg. 26
+
+Bravado
+I’ve seen a few junior dev portfolios that include language like:
+• Head and shoulders above the rest
+• Master of Javascript
+• 10x junior developer
+Most companies hire junior developers based on potential, not based on your current level of
+expertise. In fact, when a senior developer reviews your portfolio, they’re hoping to see that
+you’re eager to learn, humble, and looking for guidance; folks like that tend to be easier to
+mentor, and make for better teammates.
+The problem with this language is that it gives the impression that you’re finished learning.
+If you’ve mastered Javascript, how are you going to react when you submit some code to be
+reviewed, and a lot of changes are requested?
+It gives the impression that you’ll be hard to work with.
+This is admittedly a rare problem; most folks underestimate their abilities, not overestimate
+them. But this still does happen sometimes.
+
+pg. 27
+
+We want to target our portfolio at two cohorts of individuals:
+◦ HR Hiring Managers are looking for competence, enthusiasm, and fit
+◦ Software developers are looking for folks with grit and determination, and who
+will be easy to mentor
+• Structurally, our portfolio should feature 3 things on the homepage: an “About Me”
+section, a list of projects, and a contact form (or other contact method).
+• In terms of tone, your portfolio site should reflect your personality. It should be
+specific enough that it would obviously be plagiarism if someone else tried to use your
+“About me” section. Avoid generic platitudes or corporate-speak.
+• For your “Projects” section, live demos are overhyped and underutilized. We want to
+be a tour guide, guiding readers through the most impressive parts of our projects. Tell
+a story. We’ll learn more about how to do this in the coming chapters (this is arguably
+the most important part of this book!)
+
 
 
