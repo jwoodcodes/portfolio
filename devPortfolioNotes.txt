@@ -229,5 +229,265 @@ be a tour guide, guiding readers through the most impressive parts of our projec
 a story. We’ll learn more about how to do this in the coming chapters (this is arguably
 the most important part of this book!)
 
+pg. 36
+
+You’ll notice that Julia never says things like “I’m a fantastic coder” or “I built an amazing
+project”. Julia shows rather than tells.
+Recruiters and HR professionals like to see specific keywords that match the tools and
+technologies a company uses. Julia lists her skills on the homepage, as well as technologies
+used for specific projects (in the example we're looking at: React, GraphQL, styledcomponents, Netlify). She even shares why she chose the tools that she did, getting a little
+extra value out of this section.
+
+Enthusiasm
+The impression from reading this site is that Julia really enjoys doing this kind of work –
+she’s taken many courses beyond the content taught in her formal education, and she
+“always has a project in the works”.
+There are many ways to demonstrate enthusiasm, but doing it implicitly is always better than
+calling it out explicitly (“I am very excited to work as a developer…”)
+
+Telling a Story
+Julia shares a small amount about her educational background and her priorities, and speaks
+briefly about the context around the Coffee by Benjamin project. She shares the plan of action
+for developing the application in 3 phases, and what she learned along the way.
+I do think there is even more of an opportunity to share some more background. It would be
+great to hear why she chose to work on a coffee product in the first place, how she
+collaborated with the designer, and what roadblocks they hit along the way in non-technical
+3 6
+terms (eg. last-minute client requests, design hurdles, etc). Sharing these details can help
+add a bit of color to the picture, and make the narrative more compelling and memorable.
+
+pg.37
+
+Sprinkles
+The page features an elegant sequence of on-load animations:
+• The main heading fades in, and each line is staggered (They animate in order)
+• A line extends, pushing the social media icons out
+• The hero image fades in, after a delay
+These individual animations work together to create an incredibly polished experience. It's a
+flourish that captures attention, and makes a sight more memorable.
+You can view this animation yourself at https://www.juliacodes.com/ (though because this
+isn't my site, I can't guarantee it'll be the same now)
+
+pg.38
+
+Finally, the website has subtle animations on interactive elements. For example, project
+thumbnails zoom on hover:
+
+pg. 40
+
+CHAPTER IV: BUILDING
+
+We’ve covered a lot of the high-level theory around what makes an effective developer
+portfolio. Let’s break it down further and talk about how to design and build one.
+
+DESIGN
+As a junior or aspiring software developer, does the design of your portfolio matter?
+Unfortunately, I think it does. We don’t need to have a stunningly-beautiful portfolio, but it
+needs to look reasonably well-designed.
+Even though we aren’t applying to work as a UI/UX designer, the people reviewing our
+portfolios are human, and humans like things that are well-designed. A poorly-designed site
+can make people feel anxious or uncomfortable, and we don’t want to be associated with
+those emotions. Even if the reviewers make a conscious effort to disregard the design, I
+suspect it has an effect, and it ultimately colors their impression of us.
+The Aesthetic-Usability Effect
+Users are more forgiving of a website with usability problems if it looks pretty.
+Moreover, this happens subconsciously; people believe that if something looks
+nice, it will work well, even if they've experienced usability issues firsthand.
+This is a well-studied † phenomenon.
+Software development is all about how something works, not how something
+looks. The unfortunate reality is that people might judge our softwaredevelopment skills based on how aesthetic our portfolios site is. Having a nice
+design can subconsciously suggest that we know how to build good software.
+
+pg.43
+
+DOMAIN NAMES
+If possible, you should buy a domain for your site, yourname.com. There are many domain
+registrars you can use
+
+pg.45
+
+That said, it can be nice to add some sprinkles, to showcase our enthusiasm for UI
+development and inject a little whimsy and personality. Some ideas:
+• Create a pixelated animated flag for your home country (or LGBTQ+ identity, if
+applicable)
+• Add a dark/light toggle with micro-interactions
+• Add a hover animation on interactive elements (links, buttons)
+• Add an interaction where it isn’t expected
+
+pg.47
+
+Cursor tracking is an advanced technique, and this is an exceptional example of a flourish;
+please don’t feel like you have to compete with this. Small, creative details that reflect your
+personality can go a long way towards making your portfolio stand out and be memorable.
+
+Accessibility is a broad topic, and it’s outside of the scope of this book. Here are some
+resources to help, if you’re not already familiar:
+https://a11y.coffee/
+https://webaim.org/resources/
+https://websitesetup.org/html-tutorial-beginners/
+You may wonder if this is really a valuable use of time. After all, it’s unlikely
+that the hiring managers or developers will themselves have a disability,
+right? Do most candidates really submit fully-accessible developer portfolios?
+In fact, most candidates don’t; many of the junior-developer portfolios I’ve
+seen have been fairly inaccessible. But that’s all the more reason to excel at
+this!
+Even if the folks reviewing your portfolio don’t have a disability themselves,
+they may know how to test a site to see if it’s accessible. This is increasingly
+becoming a concern to companies, especially in the US, where the Americans
+with Disabilities Act (ADA) ensures that companies cannot discriminate
+against people with disabilities. The Supreme Court recently decided, by
+denying an appeal, that this law applies to websites. Companies are suddenly
+much more inclined to prioritize developers with accessibility experience.
+More information: https://www.cnbc.com/2019/10/07/dominos-supremecourt.html
+4 7
+Additionally, it isn’t fair to assume that no disabled users will try and access
+your website; it is estimated that 26% of the United States has at least 1
+disability right now, and many will experience a disability, either temporary
+or permanent, at some point in their lives. All too often, developers neglect
+this segment of the population, though times are changing
+
+pg.48
+
+GENERAL LAYOUT
+
+let’s talk about
+some “must-have” elements. If your template is missing one of these elements, I thoroughly
+recommend adding it.
+Your home page should include:
+• A brief “About Me” section that highlights your background and personality.
+• A list or grid of projects you’ve worked on.
+• Contact information (ideally an embedded form, but a mailto link also works. Don’t
+just include links to social media)
+If you’re comfortable with the idea, it can also help to add a photo of yourself in the top part
+of the homepage.
+Each project in the list/grid should link to a “Project Details” page, which describes the
+project in greater depth. This is absolutely critical.
+
+pg.48-49
+
+THE “PROJECT DETAIL” PAGE:
+Adding “project detail” pages is pretty uncommon among developer
+portfolios, but it’s super common among design portfolios.
+The design community has realized that screenshots alone are insufficient.
+They need to tell a story about their work, to capture all the stuff not shown in
+the images.
+4 8
+This need is even greater for developers. The work that we do is all about the
+implementation, not the aesthetics! A screenshot tells very little about our role
+on the project. And the source code is far too granular, too low-level.
+If you only take one thing from this book, make it this: no matter how cool
+your project is, it cannot be summarized by a screenshot and a short
+paragraph. Guide the reader through your work!
+
+pg.49
+
+You might struggle with how to describe this project – filling a page about a project can be a
+very tall order!
+Many junior developers undervalue their own projects. It’s likely the projects you’ve built are
+more impressive than you think! Part of this comes down to marketing.
+
+pg.50-52
+
+To help get you started, here is a template for what the sections should be, and which
+information each section should hold.
+The exact sections will depend on the nature of your project. Feel free to deviate if it doesn’t
+quite fit your experience.
+Introduction
+• High-level summary of what the project is
+• List of core functionalities / interesting features
+• Your role in the project. were you exclusively doing development, or did you do
+design? If you worked in groups, what parts did you tackle?
+• Technologies used
+• Links to live demo + source code (if applicable)
+Purpose and Goal
+• Why did you build this project? Why is it important to you?
+• What was the expected outcome of the project?
+• What were the initial designs?
+• Any other preliminary planning that you did which helps build a narrative
+
+Spotlight
+5 0
+• What is the “killer feature” of your project? What feature does it have that took the
+most work, or was the most technically impressive? Some possible examples:
+◦ User authentication
+◦ A feed of items fetched from a database
+◦ A particularly tricky UI element (eg. autocomplete, calendar, drag-and-drop)
+◦ Anything you’re proud of!
+• What were the technical hurdles that got in your way? Any major problems you hit
+during development?
+• How did you solve those problems? What was the solution? Go deep here, and write
+with a developer in mind.
+Current status
+• This section is optional. If the project is actively being used by real people, talk a little
+bit about the current status, who uses it, why they use it, what they say to you about
+it, stuff like that.
+• If the project was contrived specifically for the portfolio, omit this section.
+Lessons Learned
+• What did you learn doing this project? Feel free to list multiple things. Also feel free to
+cover non-technical lessons. It’s great to talk about how you learned to use an
+advanced feature of a framework or library, but it’s just as valuable to talk about
+project-management experience, or things you learned about shipping projects.
+• If you used a framework or other libraries/tools, was it a good choice? How did it
+help? In which ways was it insufficient?
+• Is your project accessible? What did you learn about accessibility, while building this
+project? Describing how you tested your project using keyboard navigation or a screenreader can make for a really compelling story!
+• How has this affected the work you’ve done since then? Real examples of how this
+project built your knowledge for future projects is fantastic.
+5 1
+If you have screenshots of your project (or photos of the process, eg early sketches), you
+should sprinkle them around this page. Weave them into the narrative, use them to
+highlight the things you’re talking about in the text.
+As I mentioned earlier, this template can vary widely depending on your specific project, but
+this is the level of detail you should aim for. It should take up 2-3 pages when printed (more
+if you have lots of images).
+This is a lot of information, and people often won’t spend that long reading. Because of that,
+you need to be strategic: avoid long paragraphs. Make use of many headings, and use lists
+within those headings to break up chunks of text. In essence, make it easy to skim. Some
+people will get drawn into our narrative and read every word, but we want to make sure the
+core messages come across even if someone browses quickly.
+Video demos?
+A trend I’ve seen occasionally is that developers will include a video
+walkthrough, showing off all the main features of the project.
+This is overall a good idea; it shows that the app is functional, while making
+sure that a “happy path” is followed. You don’t need to worry about the user
+wandering off and finding a bug, or using a browser that isn’t fully supported!
+It’s not sufficient on its own though. A video will show what the app does, but
+not things like why you chose to build it, what technical problems you ran
+into, etc. Plus, videos are harder to skim than text; for that reason alone,
+many folks will skip watching videos.
+If you’re particularly proud of specific functionality on your project, I suggest
+adding a video near the top, but repeating a lot of the information in text
+below, for folks who skip it.
+
+This is a lot of information, and people often won’t spend that long reading. Because of that,
+you need to be strategic: avoid long paragraphs. Make use of many headings, and use lists
+within those headings to break up chunks of text. In essence, make it easy to skim. Some
+people will get drawn into our narrative and read every word, but we want to make sure the
+core messages come across even if someone browses quickly.
+
+pg.53
+
+TONE AND COPY
+Finding the right tone for the text you write can be tricky. The most important thing is that
+you want it to sound natural.
+5 2
+The biggest mistake I see in terms of tone is that developers adopt a “professional” voice
+that comes across as stuffy and corporate. I tried to model this voice in my “generic
+portfolio” example.
+Why is this such a mistake? Think back to that generic portfolio; even though I asked you to
+review it carefully, do you remember any of the words from that site?
+Formal corporate-speak is incredibly forgettable. It sounds more like an automated
+telephone robot than a real human. People have learned to tune that tone out, since it
+doesn't usually carry important information.
+Here’s your goal: after you’ve written some text, read out loud, ideally to another person.
+Does it sound like something you’d say in real life? Rewrite it until it’s conversational.
+This should be done within reason; if you curse a lot in your day-to-day life, maybe omit
+that part. But I’ve almost never seen a developer write too casually
+
+
+
+
+
+
 
 
