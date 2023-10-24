@@ -36,15 +36,17 @@ what challenges you may have faced and overcome.
 * activly seek out people and send connection request
 
 * include any completed udemy courses and both of josh's courses in your
-education section!
+education section and liscenses and certifications section, and josh's
+courses should be in your accomplishments section
 
-*
+* 
 
 ***** from Danny Thompson youtube linkedin "course" ****
 
-recruiters wont clikc on your profile unless your title specifically 
+recruiters wont click on your profile unless your title specifically 
 says what you do
 
+talk about what you do like you were talking to a family member
 talk about what you do like you were talking to a family member
 
 about section should be short and makes your points succently 
@@ -54,5 +56,23 @@ your github, code samples, portfolio. a place to click on
 and go to your work
 
 list all skills and knowledge as things you do currently. try to avoid
-saying still learning or things alonf those lines
+saying still learning or things along those lines
+
+follower count doesn't matter at all for you
+
+your experience shouldn't say what you did, but what you achieved.
+there is probably quite a few things you achieved at flatbranch that,
+when phrased correctly, will be of interest to a portential employrer.
+You may not consider flatbranch to be "relevant job experience" but 
+it is going to be very improtent how you talk about what you achieved
+while working there on your profile.
+
+profile picture should be warm, bright, and inviting
+
+you need to be hitting all the right keywords in your about section.
+
+your about section should read in around 15 seconds
+
+any recruiter or potential hiring manager should be able to easily
+tell exactly what it is you do and would be good to hire you for
 
