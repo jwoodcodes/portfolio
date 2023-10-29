@@ -484,7 +484,97 @@ Does it sound like something you’d say in real life? Rewrite it until it’s c
 This should be done within reason; if you curse a lot in your day-to-day life, maybe omit
 that part. But I’ve almost never seen a developer write too casually
 
+pg.55
 
+Whatever you do, don't fork another developer’s
+portfolio and slap your name on it.
+• Pick the tools you're already comfortable with to build your site.
+• If possible, buy a domain name. You can host your site on free services like Netlify or
+Vercel.
+• Add small flourishes that personalize your site.
+• Prioritize accessibility. It's an essential piece of the frontend skillset, and one that
+employers are increasingly seeking out.
+• Your homepage layout should consist of an About section, a Project Details list or grid,
+and a contact form (or contact details).
+• Each project should link to a page that describes it in depth. Use the provided outline
+if you're not sure what to include.
+
+pg.56
+
+As we've already discussed, not all employers will look at portfolio sites. This chapter
+include some tips and tricks we can use to increase the number of employers who will see it.
+As part of a formal application
+Many application forms will ask you for your website. This should absolutely be your
+portfolio site!
+Additionally, there is often a blank text box near the bottom, where applicants can include
+any information they think is relevant. This is a great place to encourage reviewers to check
+out your portfolio. You can mention that it includes details on the projects you've built.
+Applications will ask you to attach your resume. You can include a link to your portfolio
+within your resume; I like to include mine by my contact info at the top.
+We don't want to overdo it; some employers will never see it, and that’s ok. Our goal is to
+make sure that it's never hard to find, for the employers that are interested.
+The further you get in your career, the easier it becomes to find work. The early jobs are the
+hardest ones, because you’re competing with so many other aspiring devs for a relatively
+small number of junior job postings. Having a huge advantage amongst even 10-20% of
+employers is potentially life-changing. And I suspect far more than 20% of employers will at
+least glance at your site.
+As part of a networking effort
+It’s estimated that between 70-80% of jobs are never advertised on job boards†
+. Networking
+unlocks a larger pool of possible jobs. This is often unwelcome news, especially for
+introverts like me. The silver lining is that it's much easier to show off our stellar portfolio
+site when we're meeting people through networking.
+Networking is far beyond the scope of this book, but here are some quick ways to
+incorporate your portfolio into these efforts:
+5 6
+• Pin your portfolio site on your Github profile. 
+
+pg.58
+
+Many of the things we’ve discussed about portfolio sites apply to cover letters. In particular:
+• Be conversational. Avoid the empty-calorie “corporate speak”.
+• Tell a compelling story. Your cover letter should be unique to you. It should feel
+dishonest if someone else was to copy your letter and replace your name with theirs.
+• Keep the HR hiring managers in mind (and to a lesser extent, developers). You’re
+targeting the same demographics.
+There’s one other cover-letter-specific thing which is super important: it should be unique
+for the company you’re applying to!
+Far too often, I’ve seen people copy/paste the same cover letter for each company they apply
+to, swapping out 1-2 details like the company name and the sector (“I am interested in the
+________ industry”).
+It’s OK to copy/paste the parts of the letter that are about your background, but most of the
+cover letter should be about how your skills and interests overlap with the company’s. You
+should be talking about why you think you’d be a perfect fit for the role. Which specific
+attributes of the company align with your specific strengths.
+As a rule of thumb, 75% of a cover letter should be unique to each company. Don’t copy/
+paste more than 25%.
+If you’re applying to an agency or a company that doesn’t have a specific product, this can be
+a bit harder, since there isn’t an industry you can identify with. But you can learn a lot about
+a company’s culture from their website (and any posted company values), and use that in
+your letter.
+
+pg.59
+
+In Appendix B, I’ve included a few cover letters I’ve used which have led to an offer. As with
+portfolio sites, your cover letter should be unique to you, so please don’t plagiarize my
+letters. But hopefully they can inspire you to write in a similar fashion.
+
+pg.60
+
+The best portfolio sites are the ones that are able to tell a story about the person and their
+projects, in a way that makes you feel like you're getting to know the person. 
+
+
+pg.61
+
+APPENDIX I:
+PORTFOLIO TEMPLATES
+
+
+pg.63
+
+APPENDIX II:
+COVER LETTERS
 
 
 
