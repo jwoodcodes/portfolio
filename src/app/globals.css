@@ -62,8 +62,8 @@ p, h1, h2, h3, h4, h5, h6 {
 
 html {
   /* black and white */
-  --black: #000000;
-  --white: hsl(210deg, 25%, 96%);
+  --color-black: #000000;
+  --color-white: hsl(210deg, 25%, 96%);
 
   /* greys */
   --color-gray-50: hsl(210deg, 19%, 10%);
@@ -80,7 +80,7 @@ html {
   /* primary and accent colors */
   --color-green-primary: #004643;
   --color-green-light: #9ad0d6;
-  --color-green-dark: #002e1d;
+  --color-green-dark: #003d27;
   
   --color-blue-light: #03A9F4;
   --color-blue-primary: #1976D2;

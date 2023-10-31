@@ -1,0 +1,137 @@
+
+.wholeMainPageWrapper {
+  background-color: var(--color-black);
+  height: 200dvh;
+
+}
+
+.mainNav {
+  position: sticky;
+  right: 0;
+  top: 30px;
+  z-index: 1;
+  font-size: 1.5rem;
+  width: 30%;
+  margin-left: auto;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.navLink {
+  color: var(--color-white);
+  text-decoration: none;
+  
+}
+
+.mainSectionWrapper {
+  width: 100%;
+  background-color: var(--color-black);
+  height: 120dvh;
+  display: flex;
+}
+
+.nameAndTitleWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 40%;
+  padding-top: 3rem;
+  border-bottom: 1px solid var(--color-blue-primary);
+  height: 120dvh;
+}
+
+.name {
+  color: var(--color-white);
+  font-size: 3rem;
+  letter-spacing: .3rem;
+  text-decoration: underline var(--color-blue-primary);
+  text-decoration-thickness: .25px;
+  margin-bottom: -.75rem;
+  padding-right: 50%;
+  
+}
+
+.jobTitle {
+  color: var(--color-blue-light);
+  font-size: 1.5rem;
+  letter-spacing: .1rem;
+  padding-right: 50%;
+}
+
+.mainSectionIntro {
+  color: var(--color-white);
+  margin-top: 25%;
+  margin-left: 50%;
+  text-align: center;
+  font-size: 1.5rem;
+  overflow: visible;
+}
+
+.mainImageContainer {
+ width: 60%;
+ border-left: 1px solid var(--color-blue-primary);
+ clip-path: polygon(50% 0, 100% 0, 100% 100%, 0% 100%);
+ border-bottom: 1px solid var(--color-blue-primary);
+  height: 120dvh;
+}
+
+.mainPageImage {
+  animation: fadeInAnimation ease-in 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  
+}
+@keyframes fadeInAnimation {
+  0% {
+    clip-path: circle(2.4% at 75% 50%);
+  }
+  5% {
+    clip-path: circle(3.5% at 75% 50%);
+  }
+  10% {
+    clip-path: circle(4.8% at 75% 50%);
+  }
+  15% {
+    clip-path: circle(6.4% at 75% 50%);
+  }
+  20% {
+    clip-path: circle(8.2% at 75% 50%);
+  }
+  25% {
+    clip-path: circle(9.5% at 75% 50%);
+  }
+  30% {
+    clip-path: circle(11.8% at 75% 50%);
+  }
+  35% {
+    clip-path: circle(13.8% at 75% 50%);
+  }
+  40% {
+    clip-path: circle(16.9% at 75% 50%);
+  }
+  50% {
+    clip-path: circle(2.0% at 75% 50%);
+  }
+ 
+  100% {
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 0% 100%);
+  }
+}
+
+
+
+.projectsSectionWrapper {
+  width: 100%;
+ 
+}
+
+.projectsHeader {
+  color: var(--color-white);
+  padding-top: 6rem;
+  text-align: center;
+  font-size: 3.75rem;
+  letter-spacing: .3rem;
+  font-weight: 100;
+}
