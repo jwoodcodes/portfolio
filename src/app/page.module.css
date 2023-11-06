@@ -1,7 +1,7 @@
 
 .wholeMainPageWrapper {
   background-color: var(--color-black);
-  height: 200dvh;
+  height: 400dvw;
 
 }
 
@@ -20,9 +20,20 @@
 
 .navLink {
   color: var(--color-white);
+  letter-spacing: .1rem;
   text-decoration: none;
-  
 }
+
+.navLink:hover {
+  transform: scale(1.3) translateY(-5px);
+  color: var(--color-blue-light);
+}
+
+.navLink:active {
+  transform: scale(1.3) translateY(0);
+  color: var(--color-purple-light);
+}
+
 
 .mainSectionWrapper {
   width: 100%;
@@ -124,14 +135,78 @@
 
 .projectsSectionWrapper {
   width: 100%;
+  
  
 }
 
 .projectsHeader {
-  color: var(--color-white);
-  padding-top: 6rem;
+  color: var(--color-blue-light);
+  /* margin-top: 6rem; */
   text-align: center;
-  font-size: 3.75rem;
+  font-size: 4rem;
   letter-spacing: .3rem;
   font-weight: 100;
+  padding: .5rem 1.5rem;
+}
+
+
+ @property --bg-angle {
+  inherits: false;
+  initial-value: 0deg;
+  syntax: "<angle>";
+}
+
+
+@keyframes spin {
+  to {
+    --bg-angle: 360deg;
+  }
+}
+
+
+.myWorkHeaderContainer {
+
+  margin-top: 8rem;
+  width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
+  /* border-radius: 20px; */
+  
+  animation: spin 2s infinite linear ;
+  
+
+  background:
+    
+    linear-gradient(
+        to bottom,
+
+        
+        oklch(0% 0 0),
+        oklch(0% 0 0)
+
+        /* oklch(35.56% 0.061 189.91),       
+        oklch(56.45% 0.163 253.27) */
+
+        /* oklch(0.1 0.2 240 / 0.95), */
+        /* oklch(0.1 0.2 240 / 0.95) */
+      )
+      padding-box, 
+    conic-gradient(
+        from var(--bg-angle) in oklch longer hue,
+        
+        oklch(1 0.37 0) 0 0
+      )
+      border-box; 
+  
+  
+  border-bottom: 2px solid transparent;
+
+  
+}
+
+.myWorkHeaderContainer:hover {
+  border: 2px solid transparent;
+  border-radius: 20px;
+  transition: .2s;
+  animation: spin 1.5s infinite linear ;
 }
