@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 import MainNav from '../components/MainNav'
+import CardContainer from '../components/CardContainer'
+
 
 export default function Home() {
   return (
@@ -11,7 +13,7 @@ export default function Home() {
       <div className={styles.name}>Jay Wood</div>
       <span className={styles.jobTitle}>Web Developer</span>
       <div className={styles.mainSectionIntro}>
-        Hi there! I&apos;m Jay, a web developer from Missouri. I love to take concepts and apps I wish existed and make them into a reality. I am so happy to share what i&apos;ve been working on with you!
+        Hi there! I&apos;m Jay, a web developer from Missouri. I love to take concepts I wish existed and make them into a reality. I am so happy to share what i&apos;ve been working on with you!
         
       </div>
      </div>
@@ -22,7 +24,12 @@ export default function Home() {
       </div>
       </div>
       <div className={styles.projectsSectionWrapper}>
+        <div className={styles.myWorkHeaderContainer}>
           <h2 className={styles.projectsHeader}>My Work</h2>
+         </div>
+        <CardContainer />
+        
+          
       </div>
 
     </div>
