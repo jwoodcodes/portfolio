@@ -50,6 +50,8 @@
   width: 40%;
   padding-top: 3rem;
   border-bottom: 1px solid var(--color-blue-primary);
+  
+  
   height: 120dvh;
 }
 
@@ -85,6 +87,7 @@
  border-left: 1px solid var(--color-blue-primary);
  clip-path: polygon(50% 0, 100% 0, 100% 100%, 0% 100%);
  border-bottom: 1px solid var(--color-blue-primary);
+
   height: 120dvh;
 }
 
@@ -210,3 +213,6 @@
   transition: .2s;
   animation: spin 1.5s infinite linear ;
 }
+
+/* cool gradient to use somewhere
+background: linear-gradient(to right, var(--color-blue-primary), var(--color-purple-light, var(--color-green-primary))); */

@@ -1,34 +1,123 @@
 .cardGridContainer {
-    width: 80%;
+    width: 85%;
     /* margin-left: auto;
     margin-right: auto; */
     margin: 10rem auto;
     
-    display: flex;
-    justify-content: space-between;
+    
+    /* display: flex;
+    justify-content: space-between; */
   
-    /* display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(17.5rem, 1fr));
     grid-gap: 2rem;
   
-    @media (max-width: 500px) {
-      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    /* @media (max-width: 500px) {
+      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     }
   
     @media (max-width: 350px) {
-      grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     } */
 
     
 }
 
 .cardContainer {
-    height: 35rem;
-    width: 25rem;
+    height: 37rem;
+    max-width: 27rem;
     border-radius: 20px;
     background-image: linear-gradient(to right bottom, var(--color-blue-primary), var(--color-purple-primary),var(--color-green-primary));
+    box-shadow: 0 1.5rem 4rem rgba(var(--color-gray-900), 0.35);
+
+    margin-left: auto;
+    margin-right: auto;
 
     /* display: flex;
   flex-direction: column;
   align-items: center; */
+}
+
+@property --bg-angle {
+  inherits: false;
+  initial-value: 0deg;
+  syntax: "<angle>";
+}
+
+
+@keyframes spin {
+  to {
+    --bg-angle: 360deg;
+  }
+}
+
+
+.cardContainer {
+
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  color: var(--color-white);
+  
+  animation: spin 2s infinite linear ;
+  
+
+  background:
+    
+    linear-gradient(
+        
+        to right bottom, var(--color-blue-primary), var(--color-purple-primary),var(--color-green-primary)
+
+        
+        /* oklch(0% 0 0),
+        oklch(0% 0 0) */
+
+        /* oklch(35.56% 0.061 189.91),       
+        oklch(56.45% 0.163 253.27) */
+
+        /* oklch(0.1 0.2 240 / 0.95), */
+        /* oklch(0.1 0.2 240 / 0.95) */
+      )
+      padding-box, 
+    conic-gradient(
+        from var(--bg-angle) in oklch longer hue,
+        
+        oklch(1 0.37 0) 0 0
+      )
+      border-box; 
+  
+  
+  border-bottom: 3px solid transparent;
+
+  
+}
+
+.cardContainer:hover {
+  transform: scale(1.35);
+  transition: .2s;
+  border: 3px solid transparent;
+}
+
+.cardImg {
+  border-radius: 10px;
+  padding: 0 .5rem;
+}
+
+.projectCardTitle {
+  font-size: 1.5rem;
+  letter-spacing: .1;
+}
+
+.projectCardBriefDisc {
+  padding: 0 .5rem;
+}
+
+.projectCardLinks {
+  color: var(--color-white);
+  font-size: 1.25rem;
+  padding: 0 1rem;
+  text-decoration: none;
 }
