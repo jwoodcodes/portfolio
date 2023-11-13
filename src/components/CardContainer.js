@@ -9,22 +9,24 @@ export default function CardContainer() {
         imgSrc='/ebvHomeScreenshot.png' 
         altText='ElderBlossom View'
         title='ElderBlossom View'
-        siteDsc='blag asdsad sadas gfdsfsa das dsa dasf dsf sadfs afggdsfsd fasdasd agfdgs fsfdasf sdgsdf adsagdfs fasfasf dsgfdh sdfsfas fsdfdshf dgsdfas fdhfd gsdgs fsdgfds gfdgs dfsdf sdfsdg fdgsd fas fsdg sdgsd gsdfgs'
+        subTitle='business & ecommerce site'
+        siteDsc='Business content site with estore and fully functioning cart for an elderberry winery and events venue. Built using React, Nextjs, and MongoDb'
         
         />  
         <ProjectCard 
         imgSrc='/DDAnalyzerScreenshot.png' 
         altText='Daily Dynasties'
         title='Daily Dynasties'
-        siteDsc='blag asdsad sadas gfdsfsa das dsa dasf dsf sadfs afggdsfsd fasdasd agfdgs fsfdasf sdgsdf adsagdfs fasfasf dsgfdh sdfsfas fsdfdshf dgsdfas fdhfd gsdgs fsdgfds gfdgs dfsdf sdfsdg fdgsd fas fsdg sdgsd gsdfgs'
+        subTitle='data & interactive user tools app'
+        siteDsc='Fantasy football content and tools site built on a large backend and leveraging multiple databases and APIs. Heavely interactive with real time user tools. Built using React, Nextjs, and MongoDb'
         
         />  
         <ProjectCard 
         imgSrc='/fbScreenshot.png' 
         altText='FB Restaurant'
         title='FB Restaurant'
-        siteDsc='blag asdsad sadas gfdsfsa das dsa dasf dsf sadfs afggdsfsd fasdasd agfdgs fsfdasf sdgsdf adsagdfs fasfasf dsgfdh sdfsfas fsdfdshf dgsdfas fdhfd gsdgs fsdgfds gfdgs dfsdf sdfsdg fdgsd fas fsdg sdgsd gsdfgs'
-        
+        subTitle='brewpub restaurant site'
+        siteDsc='Business and content site for a brewpub including info about the pub, full online menu, and current brews on tap. Built using only CSS, Sass, and some vanilla javascript for interactivity.'
         /> 
         
     </div>
