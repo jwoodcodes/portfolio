@@ -8,10 +8,10 @@
 .mainNav {
   position: sticky;
   right: 0;
-  top: 30px;
+  top: 20px;
   z-index: 1;
-  font-size: 1.5rem;
-  width: 30%;
+  font-size: 1.4rem;
+  width: 25%;
   margin-left: auto;
 
   display: flex;
@@ -22,12 +22,46 @@
   color: var(--color-white);
   letter-spacing: .1rem;
   text-decoration: none;
+  border-radius: 10px;
+  padding: .25rem;
+
+  animation: spin 2s infinite linear ;
+  
+
+  background:
+    
+    linear-gradient(
+        to bottom,
+
+        
+        oklch(0% 0 0),
+        oklch(0% 0 0)
+
+        /* oklch(35.56% 0.061 189.91),       
+        oklch(56.45% 0.163 253.27) */
+
+        /* oklch(0.1 0.2 240 / 0.95), */
+        /* oklch(0.1 0.2 240 / 0.95) */
+      )
+      padding-box, 
+    conic-gradient(
+        from var(--bg-angle) in oklch longer hue,
+        
+        oklch(1 0.37 0) 0 0
+      )
+      border-box; 
+  
+  
+  border-bottom: 2px solid transparent;
 }
 
 .navLink:hover {
   transform: scale(1.3) translateY(-5px);
   color: var(--color-blue-light);
+  border: 1px solid transparent;
 }
+
+
 
 .navLink:active {
   transform: scale(1.3) translateY(0);
@@ -40,16 +74,18 @@
   background-color: var(--color-black);
   height: 120dvh;
   display: flex;
+  margin-bottom: -.8rem;
 }
 
 .nameAndTitleWrapper {
+  
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   width: 40%;
   padding-top: 3rem;
-  border-bottom: 1px solid var(--color-blue-primary);
+  /* border-bottom: 1px solid var(--color-blue-primary); */
   
   
   height: 120dvh;
@@ -86,7 +122,7 @@
  width: 60%;
  border-left: 1px solid var(--color-blue-primary);
  clip-path: polygon(50% 0, 100% 0, 100% 100%, 0% 100%);
- border-bottom: 1px solid var(--color-blue-primary);
+ /* border-bottom: 1px solid var(--color-blue-primary); */
 
   height: 120dvh;
 }
@@ -116,15 +152,7 @@
   25% {
     clip-path: circle(9.5% at 75% 50%);
   }
-  30% {
-    clip-path: circle(11.8% at 75% 50%);
-  }
-  35% {
-    clip-path: circle(13.8% at 75% 50%);
-  }
-  40% {
-    clip-path: circle(16.9% at 75% 50%);
-  }
+ 
   50% {
     clip-path: circle(2.0% at 75% 50%);
   }
@@ -169,7 +197,7 @@
 
 .myWorkHeaderContainer {
 
-  margin-top: 8rem;
+  margin-top: 9rem;
   width: fit-content;
   margin-right: auto;
   margin-left: auto;
@@ -212,6 +240,112 @@
   border-radius: 20px;
   transition: .2s;
   animation: spin 1.5s infinite linear ;
+}
+
+.sectionDivider {
+  background: linear-gradient(to right, var(--color-blue-primary), var(--color-purple-light), var(--color-green-primary));
+  height: 1rem;
+  width: 100%;
+  clip-path: polygon(50% 100%, 0 77%, 100% 78%);
+  
+  /* clip-path: polygon(50% 100%, 0 86%, 100% 86%); */
+}
+
+.aboutSectionWrapper {
+  width: 100%;
+}
+
+.aboutSectionHeader {
+  color: var(--color-blue-light);
+  font-weight: 100;
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  
+
+  animation: spin 2s infinite linear ;
+  
+
+  background:
+    
+    linear-gradient(
+        to bottom,
+
+        
+        oklch(0% 0 0),
+        oklch(0% 0 0)
+
+        /* oklch(35.56% 0.061 189.91),       
+        oklch(56.45% 0.163 253.27) */
+
+        /* oklch(0.1 0.2 240 / 0.95), */
+        /* oklch(0.1 0.2 240 / 0.95) */
+      )
+      padding-box, 
+    conic-gradient(
+        from var(--bg-angle) in oklch longer hue,
+        
+        oklch(1 0.37 0) 0 0
+      )
+      border-box; 
+  
+  
+  border-bottom: 2px solid transparent;
+}
+
+.aboutMeMainSection {
+  color: var(--color-white);
+  width: 75%;
+  text-align: center;
+  margin: 6rem auto;
+  margin-bottom: 12rem;
+  letter-spacing: .3;
+  line-height: 2.2rem;
+  font-size: 1.6rem;
+}
+
+.contactSectionHeading {
+  color: var(--color-blue-light);
+  font-weight: 100;
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  
+
+  animation: spin 2s infinite linear ;
+  
+
+  background:
+    
+    linear-gradient(
+        to bottom,
+
+        
+        oklch(0% 0 0),
+        oklch(0% 0 0)
+
+        /* oklch(35.56% 0.061 189.91),       
+        oklch(56.45% 0.163 253.27) */
+
+        /* oklch(0.1 0.2 240 / 0.95), */
+        /* oklch(0.1 0.2 240 / 0.95) */
+      )
+      padding-box, 
+    conic-gradient(
+        from var(--bg-angle) in oklch longer hue,
+        
+        oklch(1 0.37 0) 0 0
+      )
+      border-box; 
+  
+  
+  border-bottom: 2px solid transparent;
 }
 
 /* cool gradient to use somewhere
