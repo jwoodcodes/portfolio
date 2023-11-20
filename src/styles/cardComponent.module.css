@@ -97,7 +97,7 @@
 }
 
 .cardContainer:hover {
-  transform: scale(1.35);
+  transform: scale(1.15);
   transition: .2s;
   border: 3px solid transparent;
 }

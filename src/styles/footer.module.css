@@ -1,0 +1,6 @@
+
+.wholeWrapper {
+background: linear-gradient(to right, var(--color-blue-primary), var(--color-purple-light), var(--color-green-primary));
+height: 10rem;
+}
+

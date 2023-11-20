@@ -1,11 +1,15 @@
+
 import Image from 'next/image'
 import styles from './page.module.css'
 import MainNav from '../components/MainNav'
 import CardContainer from '../components/CardContainer'
+import Footer from '../components/Footer'
 
 
 export default function Home() {
   return (
+    
+    
     <div className={styles.wholeMainPageWrapper}>
       <MainNav />
       <div className={styles.mainSectionWrapper}>
@@ -25,8 +29,9 @@ export default function Home() {
       </div>
 
       {/* projects section */}
-
+      <div className={styles.sectionDividerWrapper}>
       <div className={styles.sectionDivider}></div>
+      </div>
 
         <div className={styles.projectsSectionWrapper} id='projects'>
         <div className={styles.myWorkHeaderContainer}>
@@ -37,7 +42,9 @@ export default function Home() {
 
       {/* about section */}
 
+      <div className={styles.sectionDividerWrapper}>
       <div className={styles.sectionDivider}></div>
+      </div>
 
       <div className={styles.aboutSectionWrapper} id='about'>
           <h2 className={styles.aboutSectionHeader}>About Me</h2>
@@ -57,16 +64,23 @@ export default function Home() {
 
       {/* contact section */}
 
+      <div className={styles.sectionDividerWrapper}>
       <div className={styles.sectionDivider}></div>
+      </div>
 
       <div className={styles.contactSectionWrapper} id='contact'>
         <h2 className={styles.contactSectionHeading}>Contact</h2>
-        <div>
-
+        <div className={styles.contactMessage}>
+          I&apos;d love to work with you, reach me at
+          <br />
+          <br />
+          jwoodcodes@gmail.com
         </div>
 
+        
       </div>
-
+      <Footer />
     </div>
+    
   )
 }
