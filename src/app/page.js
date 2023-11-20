@@ -71,7 +71,7 @@ export default function Home() {
       <div className={styles.contactSectionWrapper} id='contact'>
         <h2 className={styles.contactSectionHeading}>Contact</h2>
         <div className={styles.contactMessage}>
-          I'd love to work with you, reach me at
+          I&apos;d love to work with you, reach me at
           <br />
           <br />
           jwoodcodes@gmail.com
