@@ -1,7 +1,7 @@
 
 .wholeMainPageWrapper {
   background-color: var(--color-black);
-  height: 400dvw;
+  height: fit-content;
 
 }
 
@@ -128,46 +128,19 @@
 }
 
 .mainPageImage {
-  animation: fadeInAnimation ease-in 3s;
+  animation: fadeInAnimation ease-in 2s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   
-}
-@keyframes fadeInAnimation {
-  0% {
-    clip-path: circle(2.4% at 75% 50%);
-  }
-  5% {
-    clip-path: circle(3.5% at 75% 50%);
-  }
-  10% {
-    clip-path: circle(4.8% at 75% 50%);
-  }
-  15% {
-    clip-path: circle(6.4% at 75% 50%);
-  }
-  20% {
-    clip-path: circle(8.2% at 75% 50%);
-  }
-  25% {
-    clip-path: circle(9.5% at 75% 50%);
-  }
- 
-  50% {
-    clip-path: circle(2.0% at 75% 50%);
-  }
- 
-  100% {
-    clip-path: polygon(50% 0, 100% 0, 100% 100%, 0% 100%);
-  }
 }
 
 
 
 .projectsSectionWrapper {
   width: 100%;
-  
- 
+  background-color: var(--color-black);
+  padding-top: 4rem;
+  padding-bottom: 2rem;
 }
 
 .projectsHeader {
@@ -178,6 +151,7 @@
   letter-spacing: .3rem;
   font-weight: 100;
   padding: .5rem 1.5rem;
+  
 }
 
 
@@ -197,11 +171,12 @@
 
 .myWorkHeaderContainer {
 
-  margin-top: 9rem;
+  /* margin-top: 9rem; */
   width: fit-content;
   margin-right: auto;
   margin-left: auto;
   /* border-radius: 20px; */
+  margin-bottom: -4rem;
   
   animation: spin 2s infinite linear ;
   
@@ -242,6 +217,11 @@
   animation: spin 1.5s infinite linear ;
 }
 
+.sectionDividerWrapper {
+  background-color: var(--color-black);
+ 
+}
+
 .sectionDivider {
   background: linear-gradient(to right, var(--color-blue-primary), var(--color-purple-light), var(--color-green-primary));
   height: 1rem;
@@ -253,6 +233,8 @@
 
 .aboutSectionWrapper {
   width: 100%;
+  background-color: var(--color-black);
+  padding: 6rem 0;
 }
 
 .aboutSectionHeader {
@@ -260,7 +242,7 @@
   font-weight: 100;
   font-size: 4rem;
   text-align: center;
-  margin-top: 10rem;
+  margin-bottom: 6rem;
   margin-left: auto;
   margin-right: auto;
   width: fit-content;
@@ -300,11 +282,17 @@
   color: var(--color-white);
   width: 75%;
   text-align: center;
-  margin: 6rem auto;
-  margin-bottom: 12rem;
+  margin: 0 auto;
+  /* margin-bottom: 12rem; */
+ 
   letter-spacing: .3;
   line-height: 2.2rem;
   font-size: 1.6rem;
+}
+
+.contactSectionWrapper {
+  background-color: var(--color-black);
+  padding: 6rem 0;
 }
 
 .contactSectionHeading {
@@ -312,7 +300,7 @@
   font-weight: 100;
   font-size: 4rem;
   text-align: center;
-  margin-top: 10rem;
+  
   margin-left: auto;
   margin-right: auto;
   width: fit-content;
@@ -346,6 +334,18 @@
   
   
   border-bottom: 2px solid transparent;
+}
+
+.contactMessage {
+  /* color: var(--color-purple-light); */
+  background: linear-gradient(to right, var(--color-blue-light),  var(--color-green-light));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+  letter-spacing: .2rem;
+  margin: 5rem auto;
+  text-align: center;
+
 }
 
 /* cool gradient to use somewhere
