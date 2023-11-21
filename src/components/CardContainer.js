@@ -11,6 +11,7 @@ export default function CardContainer() {
         title='ElderBlossom View'
         subTitle='business & ecommerce site'
         siteDsc='Business content site with estore and fully functioning cart for an elderberry winery and events venue. Built using React, Nextjs, and MongoDb'
+        projectPageRef='/ebv'
         
         />  
         <ProjectCard 
@@ -19,6 +20,7 @@ export default function CardContainer() {
         title='Daily Dynasties'
         subTitle='data & interactive user tools app'
         siteDsc='Fantasy football content and tools site built on a large backend and leveraging multiple databases and APIs. Heavely interactive with real time user tools. Built using React, Nextjs, and MongoDb'
+        projectPageRef='/'
         
         />  
         <ProjectCard 
@@ -27,6 +29,7 @@ export default function CardContainer() {
         title='FB Restaurant'
         subTitle='brewpub restaurant site'
         siteDsc='Business and content site for a brewpub including info about the pub, full online menu, and current brews on tap. Built using only CSS, Sass, and some vanilla javascript for interactivity.'
+        projectPageRef='/'
         /> 
         
     </div>

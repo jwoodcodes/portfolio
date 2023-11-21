@@ -1,0 +1,52 @@
+.wholePageWrapper {
+    background-color: var(--color-black);
+    height: fit-content;
+   font-family: 'Roboto';
+    
+}
+
+.mainTitle {
+    color: var(--color-white);
+    text-align: center;
+    font-size: 3.5rem;
+    letter-spacing: .3rem;
+    font-weight: 100;
+    margin: 6rem 0;
+}
+
+.sectionWrapper {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+    padding: 0 2rem;
+}
+
+.infoParagraph {
+    color: var(--color-white);
+    text-align: center;
+    padding: 1rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.siteLink {
+    text-decoration: none;
+    color: var(--color-blue-primary);
+    font-size: 2rem;
+}
+
+.sectionDividerWrapper {
+    background-color: var(--color-black);
+   margin-bottom: 2rem;
+  }
+  
+  .sectionDivider {
+    background: linear-gradient(to right, var(--color-blue-primary), var(--color-purple-light), var(--color-green-primary));
+    height: 1rem;
+    width: 100%;
+    clip-path: polygon(50% 100%, 0 77%, 100% 78%);
+    
+    /* clip-path: polygon(50% 100%, 0 86%, 100% 86%); */
+  }

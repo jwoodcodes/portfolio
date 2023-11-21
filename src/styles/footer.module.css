@@ -2,5 +2,17 @@
 .wholeWrapper {
 background: linear-gradient(to right, var(--color-blue-primary), var(--color-purple-light), var(--color-green-primary));
 height: 10rem;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.myName {
+    color: var(--color-white);
+    font-size: 2.25rem;
+    letter-spacing: .2rem;
+    margin-left: 1.3rem;
+    margin-right: 1rem;
 }
 
