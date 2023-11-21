@@ -11,7 +11,7 @@ export default function Home() {
     
     
     <div className={styles.wholeMainPageWrapper}>
-      <MainNav />
+      <MainNav projects={'#projects'} about={'#about'} contact={'#contact'} />
       <div className={styles.mainSectionWrapper}>
         <div className={styles.nameAndTitleWrapper}>
         <h1 className={styles.name}>Jay Wood</h1>
