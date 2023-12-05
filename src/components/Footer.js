@@ -16,7 +16,7 @@ export default function Footer() {
           alt="github link"
         ></Image>
       </Link>
-      <div className={styles.myName}>Jordan Wood 2023</div>
+      <div className={styles.myName}>Jay Wood 2023</div>
       <Link href="https://www.linkedin.com/in/jay-wood-131432263/">
         <Image
           src="/linkedin.png"
