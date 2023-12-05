@@ -1,17 +1,17 @@
 .wholePageWrapper {
     background-color: var(--color-black);
     height: fit-content;
-   font-family: 'Roboto';
+   /* font-family: 'Roboto'; */
     
 }
 
 .mainTitle {
     color: var(--color-white);
     text-align: center;
-    font-size: 3.5rem;
-    letter-spacing: .3rem;
+    font-size: 3.75rem;
+    letter-spacing: .4rem;
     font-weight: 100;
-    margin: 6rem 0;
+    margin: 7rem 0;
 }
 
 .sectionWrapper {
@@ -19,6 +19,10 @@
     justify-content: space-evenly;
     margin-bottom: 2rem;
     padding: 0 2rem;
+}
+
+.siteScreenshots {
+    border-radius: 10px;
 }
 
 .infoParagraph {
@@ -33,8 +37,8 @@
 
 .siteLink {
     text-decoration: none;
-    color: var(--color-blue-primary);
-    font-size: 2rem;
+    color: var(--color-blue-light);
+    font-size: 2.5rem;
 }
 
 .sectionDividerWrapper {

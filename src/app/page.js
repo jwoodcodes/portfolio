@@ -10,10 +10,10 @@ export default function Home() {
       <MainNav projects={"#projects"} about={"#about"} contact={"#contact"} />
       <div className={styles.mainSectionWrapper}>
         <div className={styles.nameAndTitleWrapper}>
-          <h1 className={styles.name}>Jordan Wood</h1>
+          <h1 className={styles.name}>Jay Wood</h1>
           <span className={styles.jobTitle}>Web Developer</span>
           <div className={styles.mainSectionIntro}>
-            Hi there! I&apos;m Jordan a web developer from Missouri. I love to
+            Hi there! I&apos;m Jay, a web developer from Missouri. I love to
             take concepts and them into a reality. I am so happy to share what
             i&apos;ve been working on with you!
           </div>

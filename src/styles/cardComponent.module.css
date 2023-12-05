@@ -4,6 +4,8 @@
     margin-right: auto; */
     margin: 10rem auto;
     
+
+    
     
     /* display: flex;
     justify-content: space-between; */
@@ -33,6 +35,8 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 7rem;
+
+    text-decoration: none;
 
     /* display: flex;
   flex-direction: column;

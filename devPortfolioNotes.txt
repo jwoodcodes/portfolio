@@ -23,9 +23,47 @@ invoice-scanning app? Employers love to hear about projects like this, because i
 that you’re able to apply your skills in creative ways, and tackle a project from start to
 finish.
 
+
+
+
+
+
+
+
+
+DD- things I wish existed that I built for DD- PNODV algo, 3d trade analyzer with sleeper connect, 1:1 values vs. market
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 • � Is your project “alive”? Is it shipped, and are people really using it for its intended
 purpose? It’s better to have a living, breathing project with real users (even if it’s only
 a handful) over a project that was built exclusively as a demo / for the portfolio.
+
+
+
+
+
+DD- current active production app that has current active users that use the tools
+
+
+
+
+
+
 
 pg. 10
 HOW MANY PROJECTS TO INCLUDE?
@@ -54,6 +92,33 @@ couple paragraphs about a project, but think about how incomplete that story is.
 junior-developer projects look the same on the surface; the interesting stuff is below the
 surface. And a portfolio site is a great chance to guide the reader through that interesting
 stuff.
+
+
+
+
+
+
+
+
+     --hard challenges overcame--
+
+EBV- global shopping cart using React context and local storage.
+-dynamic routing for individual product pages
+
+DD- working with large amounts of data.
+- built algo's to work with data
+-many database and api calls
+-layered async/await calls
+-
+
+FB- no framework used. all SaSS and vanilla JS
+
+
+
+
+
+
+
 
 pg. 12
 
@@ -161,10 +226,55 @@ have the patience to sign up for things.
 • Have you found and fixed all possible edge-case bugs? Live demos going awry happens
 so much that it’s cliché.
 Even if everything goes flawlessly, think about what isn’t conveyed in a live demo:
+
 • Why is this project important to you? What inspired it? Why did you choose to build
 this?
+
+
+
+
+
+
+
+
+EBV- wanted to make an ecommerce app with a cart function. knew the business and knew I could make something beautiful with the setting and design a color scheme that went well with their products
+
+DD- I have played fantasy football for almost 20 years and over the years there were tools I wish someone had made and once I gained the programming skill I knew I would build the things I always wished existed. It marryied and old passion with a new one and I have and continue to love to work on it 
+
+FB- I built this a mock up for what I thought the restaurants site could look like. I had worked there for over a decade and never really liked the site they had so I built a better one
+
+
+
+
+
+
 • What are the major features that make it unique? How does it compare to existing
 products like it?
+
+
+
+
+
+
+
+EBV- they host events at their winery in addition to selling their products and its such a beuatiful venue and many more people know the products than the venue so I wanted to make something that showcased the venue while retaining the shop function of their current site.
+
+DD- sort projections by players on any sleeper team
+-PNODV algo
+- 1:1 my dynasty values to market values
+- 3D trade analyzer as a whole
+- sleeper connect aspect of trade analyzer
+
+FB- increased performance and improved UX in menu and beers sections
+
+
+
+
+
+
+
+
+
 • What did you start with? Was this built from scratch? Did you have a team? If so,
 which parts did you do? Where did the design come from? Was there any
 collaboration?
@@ -172,6 +282,28 @@ collaboration?
 way?
 • When you did get stuck, how did you resolve it? How did you overcome the obstacles
 you faced?
+
+
+
+
+
+
+
+
+EBV- dynamic tables that involve images and making them responsive and work with the responsiveness of the rest of the compenets that call them
+- incorporating Next dynamic routes for individual product pages
+- needed state for the cart to be available in all pages and the values to persist. solved this by incorporating React context and local storage to add a persistant cart function.
+
+DD- 
+
+
+
+
+
+
+
+
+
 2 2
 • What did you learn from doing this project? How has it affected the work you’ve done
 since then?
