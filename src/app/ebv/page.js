@@ -15,12 +15,12 @@ export default function EBV() {
 
 
             <div className={styles.sectionWrapper}>
-                <Image src='/ebvHomeScreenshot.png' width={900} height={500} className={styles.siteScreenshots}></Image>
+                <Image src='/ebvHomeScreenshot.png' width={900} height={600}></Image>
             
 
                 <p className={styles.infoParagraph}>
 
-                    <Link href='https://ebv.vercel.app/'  className={styles.siteLink}>Go explore ElderBlossom View &rarr;</Link>
+                    <Link href='https://ebv.vercel.app/'  className={styles.siteLink}>Go to ElderBlossom View &rarr;</Link>
                     <br /> <br />
                     fdsfsd ds fsfjdsf sfjds k fdskf sdfjdklsfjslkfjsdkf dskfsd
                     dkfj dslkfjdsklf sdklfj dskfjdslkf sdf jsdfsdfsd
@@ -42,7 +42,7 @@ export default function EBV() {
                     sd fsdf sdfs sdfdsf dsf sdf dsfds fdfsf dsfdsf sdfdsf dsfdsf dsfds
                      dsfds fsdfds fdsfds fdsfsd fdsfds fdsfds fdsf dsfdsf sdf
                 </p>
-                <Image src='/ebvScreenshot.png' width={900} height={500} className={styles.siteScreenshots}></Image>
+                <Image src='/ebvScreenshot.png' width={900} height={600}></Image>
             
             </div>
             <Footer />
