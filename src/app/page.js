@@ -22,7 +22,7 @@ export default function Home() {
         <div className={styles.mainImageContainer}>
           <Image
             src="/coloredSmoke.jpg"
-            cover
+            
             width="2000"
             height="1200"
             className={styles.mainPageImage}

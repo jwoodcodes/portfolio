@@ -9,13 +9,13 @@ export default function EBV() {
     return (
         <div className={styles.wholePageWrapper}>
             <MainNav projects={'/#projects'} about={'/#about'} contact={'/#contact'}/>
-            
+            <span className={styles.navName}>Jay Wood</span>
             <h1 className={styles.mainTitle}>ElderBlossom View</h1>
 
 
 
             <div className={styles.sectionWrapper}>
-                <Image src='/ebvHomeScreenshot.png' width={900} height={600}></Image>
+                <Image src='/ebvHomeScreenshot.png' width={900} height={500} alt="ebv project home page" priority className={styles.siteScreenshots}></Image>
             
 
                 <p className={styles.infoParagraph}>
@@ -42,7 +42,7 @@ export default function EBV() {
                     sd fsdf sdfs sdfdsf dsf sdf dsfds fdfsf dsfdsf sdfdsf dsfdsf dsfds
                      dsfds fsdfds fdsfds fdsfsd fdsfds fdsfds fdsf dsfdsf sdf
                 </p>
-                <Image src='/ebvScreenshot.png' width={900} height={600}></Image>
+                <Image src='/ebvScreenshot.png' width={900} height={500} alt="ebv project shop page" className={styles.siteScreenshots}></Image>
             
             </div>
             <Footer />

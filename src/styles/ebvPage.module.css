@@ -5,13 +5,27 @@
     
 }
 
+.navName {
+    background: linear-gradient(to right, var(--color-blue-primary), var(--color-purple-light), var(--color-green-primary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    /* color: var(--color-blue-light); */
+    margin-right: auto;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    line-height: .25rem;
+    margin-left: 2rem;
+    
+  }
+
 .mainTitle {
     color: var(--color-white);
     text-align: center;
     font-size: 3.75rem;
     letter-spacing: .4rem;
     font-weight: 100;
-    margin: 7rem 0;
+    margin: 6rem 0;
 }
 
 .sectionWrapper {
