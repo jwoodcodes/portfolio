@@ -282,7 +282,9 @@ collaboration?
 way?
 • When you did get stuck, how did you resolve it? How did you overcome the obstacles
 you faced?
-
+2 2
+• What did you learn from doing this project? How has it affected the work you’ve done
+since then?
 
 
 
@@ -294,7 +296,13 @@ EBV- dynamic tables that involve images and making them responsive and work with
 - incorporating Next dynamic routes for individual product pages
 - needed state for the cart to be available in all pages and the values to persist. solved this by incorporating React context and local storage to add a persistant cart function.
 
-DD- 
+DD- I fetch a lot of data in this app, both from my databases and from external API's. I bring in a lot of data and do a ton of work with it to calculate new data sets and push those to different databases to be used in other parts of the application. 
+
+with the external API's a lot of what I ultimatly want from them isn't sent in a form that is useful to me. I had to do a lot of work to get the data in a form that I could use for the purpose I needed it for and because of the shape of the response from the API in some places nested API calls were neccesary just to fully form the data structure I needed. 
+
+There is a ton of data manipulation and backend work done in vanilla JS in the application. I learned a deep knowledge of Javascript and data structures as well as database and aPI interactions while building the different tools of this app and a deep knowledge of the latest next.js to build an app that works with this much data still be performant
+
+FB- This was the first project I built. The hardest part for me was the CSS. I knew I wanted to build it with as minimal JS as possible and just deep dive into CSS and SASS as much as I could. I had to do a lot of reading of MDN and searching for answers on how to do what I wanted or why something wasn/t working the way I thought it should be. It turned out to be a really valuable exercise to focus so deeply on the CSS by not bringing in any more complexity than neccesary
 
 
 
@@ -304,9 +312,17 @@ DD-
 
 
 
-2 2
-• What did you learn from doing this project? How has it affected the work you’ve done
-since then?
+
+
+
+
+
+
+
+
+
+
+
 
 pg. 23
 
