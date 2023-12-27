@@ -386,6 +386,30 @@ technologies a company uses. Julia lists her skills on the homepage, as well as 
 used for specific projects (in the example we're looking at: React, GraphQL, styledcomponents, Netlify). She even shares why she chose the tools that she did, getting a little
 extra value out of this section.
 
+
+
+
+
+tools used:
+
+EBV: react, NextJs, mongoDB, node, CSS, github, Vercel
+
+DD: react, NextJs, mongoDB, node, CSS, github, Vercel
+
+FB: vanillaJS, CSS, SASS, express
+
+
+
+
+
+
+
+
+
+
+
+
+
 Enthusiasm
 The impression from reading this site is that Julia really enjoys doing this kind of work –
 she’s taken many courses beyond the content taught in her formal education, and she
@@ -534,6 +558,35 @@ very tall order!
 Many junior developers undervalue their own projects. It’s likely the projects you’ve built are
 more impressive than you think! Part of this comes down to marketing.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*******************************************************************************************************************************************
+
+
 pg.50-52
 
 To help get you started, here is a template for what the sections should be, and which
@@ -613,6 +666,35 @@ within those headings to break up chunks of text. In essence, make it easy to sk
 people will get drawn into our narrative and read every word, but we want to make sure the
 core messages come across even if someone browses quickly.
 
+
+**********************************************************************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 pg.53
 
 TONE AND COPY
@@ -675,7 +757,34 @@ site when we're meeting people through networking.
 Networking is far beyond the scope of this book, but here are some quick ways to
 incorporate your portfolio into these efforts:
 5 6
+
+
+
+
+
+
+
+
+
+
+
 • Pin your portfolio site on your Github profile. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 pg.58
 
