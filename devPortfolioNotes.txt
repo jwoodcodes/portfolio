@@ -593,23 +593,30 @@ To help get you started, here is a template for what the sections should be, and
 information each section should hold.
 The exact sections will depend on the nature of your project. Feel free to deviate if it doesn’t
 quite fit your experience.
-Introduction
+
+
+sections each project page should have:
+
+
+1) Introduction
 • High-level summary of what the project is
 • List of core functionalities / interesting features
-• Your role in the project. were you exclusively doing development, or did you do
-design? If you worked in groups, what parts did you tackle?
 • Technologies used
 • Links to live demo + source code (if applicable)
-Purpose and Goal
+
+
+2)   Purpose and Goal
 • Why did you build this project? Why is it important to you?
 • What was the expected outcome of the project?
 • What were the initial designs?
 • Any other preliminary planning that you did which helps build a narrative
 
-Spotlight
-5 0
+
+3) Spotlight
+
 • What is the “killer feature” of your project? What feature does it have that took the
 most work, or was the most technically impressive? Some possible examples:
+
 ◦ User authentication
 ◦ A feed of items fetched from a database
 ◦ A particularly tricky UI element (eg. autocomplete, calendar, drag-and-drop)
@@ -619,11 +626,16 @@ during development?
 • How did you solve those problems? What was the solution? Go deep here, and write
 with a developer in mind.
 Current status
+
+4)
 • This section is optional. If the project is actively being used by real people, talk a little
 bit about the current status, who uses it, why they use it, what they say to you about
 it, stuff like that.
 • If the project was contrived specifically for the portfolio, omit this section.
-Lessons Learned
+
+
+5) Lessons Learned
+
 • What did you learn doing this project? Feel free to list multiple things. Also feel free to
 cover non-technical lessons. It’s great to talk about how you learned to use an
 advanced feature of a framework or library, but it’s just as valuable to talk about
@@ -634,7 +646,9 @@ help? In which ways was it insufficient?
 project? Describing how you tested your project using keyboard navigation or a screenreader can make for a really compelling story!
 • How has this affected the work you’ve done since then? Real examples of how this
 project built your knowledge for future projects is fantastic.
-5 1
+
+
+
 If you have screenshots of your project (or photos of the process, eg early sketches), you
 should sprinkle them around this page. Weave them into the narrative, use them to
 highlight the things you’re talking about in the text.
@@ -659,6 +673,8 @@ many folks will skip watching videos.
 If you’re particularly proud of specific functionality on your project, I suggest
 adding a video near the top, but repeating a lot of the information in text
 below, for folks who skip it.
+
+
 
 This is a lot of information, and people often won’t spend that long reading. Because of that,
 you need to be strategic: avoid long paragraphs. Make use of many headings, and use lists
