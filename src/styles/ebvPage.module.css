@@ -31,7 +31,7 @@
 .sectionWrapper {
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     padding: 0 2rem;
 }
 
@@ -47,6 +47,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 1.5rem;
 }
 
 .siteLink {
@@ -57,7 +58,8 @@
 
 .sectionDividerWrapper {
     background-color: var(--color-black);
-   margin-bottom: 2rem;
+    margin-top: 1rem;
+   margin-bottom: 5rem;
   }
   
   .sectionDivider {
