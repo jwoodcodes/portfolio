@@ -38,7 +38,7 @@ export default function EBV() {
 
             <div className={styles.sectionWrapper}>
                 <p className={styles.infoParagraph}>
-                    * I built this because I know the owners of this winery and they are such beautiful people with a gorgous venue and products but their site design didn't show this to the world and I felt like I could do so
+                    * I built this because I know the owners of this winery and they are such beautiful people with a gorgous venue and products but their site design didnt show this to the world and I felt like I could do so
                     <br /> <br />
                     * My goal was to pick a color scheme that went with their products and to use a design that highlighted and showcased their venue and products and let them be the star
                 </p>
