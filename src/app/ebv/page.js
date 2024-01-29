@@ -9,9 +9,10 @@ export default function EBV() {
     return (
         <div className={styles.wholePageWrapper}>
             <MainNav projects={'/#projects'} about={'/#about'} contact={'/#contact'}/>
+            <div>
             <span className={styles.navName}>Jay Wood</span>
             <h1 className={styles.mainTitle}>ElderBlossom View</h1>
-
+            </div>
 
 
             <div className={styles.sectionWrapper}>
@@ -22,6 +23,8 @@ export default function EBV() {
 
                     <Link href='https://ebv.vercel.app/'  className={styles.siteLink}>Go to ElderBlossom View &rarr;</Link>
                     <br />
+                    * Overview *
+                    <br /><br />
                     * ElderBlossom View is a business content and ecommerce site for an elderberry winery and event venue
                     <br /><br />
                     * features next.js dynamic routing, full cart functionality with local storage, static data fetching from MongoDb, and responsive tables
@@ -55,6 +58,8 @@ export default function EBV() {
       <div className={styles.sectionWrapper}>
       <Image src='/ebvScreenshot.png' width={900} height={500} alt="ebv project shop page" className={styles.siteScreenshots}></Image>
                 <p className={styles.infoParagraph}>
+                    * Challenges faced *
+                    <br /><br />
                     * I needed the cart state to be mutable in multiple places and have access to the value globally to display it in the mainNav. I Leveraged React context and local storage to hold cart state and make it available throughout the app where it was needed. 
                     <br /> <br />
                     * Uses Next.js dynamic routing to route to specfic product or event pages from the shop and events pages. 

@@ -2,21 +2,77 @@
 .wholeMainPageWrapper {
   background-color: var(--color-black);
   height: fit-content;
-
+ 
 }
 
 .mainNav {
   position: sticky;
   right: 0;
   top: 20px;
+  left: 90%;
   z-index: 1;
   font-size: 1.4rem;
   width: 25%;
-  margin-left: auto;
+  /* margin-left: auto; */
 
   display: flex;
   justify-content: space-around;
 }
+
+@media (max-width: 1750px) {
+  .mainNav {
+    left: 75%;
+  }
+}
+
+@media (max-width: 1400px) {
+  .mainNav {
+    left: 70%;
+  }
+}
+
+@media (max-width: 1275px) {
+  .mainNav {
+      right: 8rem;
+  }
+}
+
+@media (max-width: 1050px) {
+  .mainNav {
+    left: 65%;
+  }
+}
+
+@media (max-width: 800px) {
+  .mainNav {
+    left: 60%;
+  }
+}
+
+@media (max-width: 650px) {
+  .mainNav {
+    /* left: 60%; */
+    font-size: .8rem;
+    
+  }
+}
+
+@media (max-width: 400px) {
+  .mainNav {
+    /* left: 60%; */
+    font-size: .6rem;
+    
+  }
+}
+
+@media (max-width: 330px) {
+  .mainNav {
+    /* left: 60%; */
+    font-size: .5rem;
+    
+  }
+}
+
 
 .navLink {
   color: var(--color-white);
