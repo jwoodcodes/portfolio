@@ -11,13 +11,16 @@ import { Diphylleia } from 'next/font/google'
 export default function EBV() {
     return (
         <div className={styles.wholePageWrapper}>
+
             <div className={styles.nameAndNav}>
-            <MainNav projects={'/#projects'} about={'/#about'} contact={'/#contact'}/>
             <div className={styles.navName}>Jay Wood</div>
-            <div>
             </div>
             
-            </div>
+            <MainNav projects={'/#projects'} about={'/#about'} contact={'/#contact'}/>
+            
+            
+            
+           
             <h1 className={styles.mainTitle} >ElderBlossom View</h1>
             
 
@@ -29,7 +32,7 @@ export default function EBV() {
                 <p className={styles.infoParagraph}>
 
                     
-                    <br />
+                   
                     <span className={styles.sectionTitle}> Overview </span>
                     <br />
                      ElderBlossom View is a business content and ecommerce site for an elderberry winery and event venue
@@ -49,6 +52,7 @@ export default function EBV() {
             {/* section break */}
 
             <div className={styles.sectionWrapper}>
+            <Image src='/ebvScreenshot.png' width={900} height={500} alt="ebv project shop page" className={styles.siteScreenshots}></Image>
                 <p className={styles.infoParagraph}>
                 <span className={styles.sectionTitle}>Goal and Reason for building</span>
                     
@@ -57,7 +61,7 @@ export default function EBV() {
                     <br /> <br />
                      My goal was to pick a color scheme that went with their products and to use a design that highlighted and showcased their venue and products and let them be the star
                 </p>
-                <Image src='/ebvScreenshot.png' width={900} height={500} alt="ebv project shop page" className={styles.siteScreenshots}></Image>
+                
             
             </div>
 
@@ -84,7 +88,7 @@ export default function EBV() {
       </div>
 
       <div className={styles.sectionWrapper}>
-      
+      <Image src='/ebvScreenshot.png' width={900} height={500} alt="ebv project shop page" className={styles.siteScreenshots}></Image>
                 <p className={styles.infoParagraph}>
                 <span className={styles.sectionTitle}>Lessons learned while building</span>
                     
@@ -94,7 +98,7 @@ export default function EBV() {
                      I had to learn to use some hooks and libraries that I had not used before. I used React context, CLSX, and use-shopping-cart here. It taught me not just how to use these specifically, but gave me more real world experience in reading docs and learning new solutions to solve a problem I have. 
                 </p>
                 
-                <Image src='/ebvScreenshot.png' width={900} height={500} alt="ebv project shop page" className={styles.siteScreenshots}></Image>
+               
             </div>
 
             {/* <div className={styles.sectionDividerWrapper}>
