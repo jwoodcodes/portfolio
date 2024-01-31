@@ -7,12 +7,14 @@
 
 .nameAndNav {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     /* position: sticky;
     top: 0; */
     width: 100%;
-    margin-right: 3rem;
+    text-align: center;
+    padding-top: 2rem;
+    margin-bottom: -36rem;
 }
 
 .navName {
@@ -20,17 +22,17 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
     /* color: var(--color-blue-light); */
-    margin-right: auto;
-    margin-left: auto;
+    /* margin-right: auto;
+    margin-left: auto; */
     margin-top: 2rem;
-    margin-left: -1rem;
+    
     font-size: 3rem;
     font-weight: 700;
     letter-spacing: .2rem;
   
     
-    align-self: center;
-    height: 10rem;
+    
+    height: fit-content;
     /* position: relative;
     top: 20px;
     left: 20px; */
@@ -55,12 +57,12 @@
     }
 } */
 
-@media (max-width: 390px) {
+/* @media (max-width: 390px) {
     .navName {
         font-size: 2rem;
         
     }
-}
+} */
 
 .mainTitle {
     color: var(--color-white);
@@ -68,7 +70,8 @@
     font-size: 3.75rem;
     letter-spacing: .5rem;
     font-weight: 100;
-    margin: 6rem 0;
+    margin-bottom: 4.5rem;
+    
     font-family: 'Diphylleia', serif;
 }
 
@@ -91,6 +94,12 @@
     }
 }
 
+@media (max-width: 425px) {
+    .mainTitle {
+        font-size: 1.65rem;
+    }
+}
+
 @media (max-width: 375px) {
     .mainTitle {
         font-size: 1.5rem;
@@ -98,20 +107,23 @@
 }
 
 
-.sectionWrapper {
+/* .sectionWrapper {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 3rem;
     padding: 0 2rem;
-}
+} */
 
-@media (max-width: 1600px) {
+/* @media (max-width: 1600px) { */
     .sectionWrapper {
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-bottom: 3rem;
+    padding: 0 2rem;
     }
-}
+/* } */
 
 @media (max-width: 1275px) {
     .sectionWrapper {
@@ -161,7 +173,7 @@
     color: var(--color-blue-light);
     font-size: 2.5rem;
     font-weight: 700;
-    
+    margin-top: 3rem;
 }
 
 @media (max-width: 450px) {
