@@ -17,6 +17,22 @@
     margin-bottom: -36rem;
 }
 
+@media (max-width: 500px) {
+    .nameAndNav {
+        margin-bottom: -30rem;
+        
+    }
+}
+
+@media (max-width: 475px) {
+    .nameAndNav {
+        margin-bottom: -25rem;
+        
+    }
+}
+
+
+
 .navName {
     background: linear-gradient(to right, var(--color-blue-primary), var(--color-purple-light), var(--color-green-primary));
   -webkit-background-clip: text;
@@ -94,15 +110,33 @@
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 450px) {
     .mainTitle {
         font-size: 1.65rem;
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
+    .mainTitle {
+        font-size: 1.55rem;
+    }
+}
+
+@media (max-width: 395px) {
     .mainTitle {
         font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .mainTitle {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .mainTitle {
+        font-size: 1rem;
     }
 }
 
@@ -153,18 +187,66 @@
     }
     }
 
-    @media (max-width: 425px) {
+    @media (max-width: 675px) {
         .siteScreenshots {
             
-            width: 500px;
+            width: 550px;
+            height: 300px;;
+        }
+        }
+
+        @media (max-width: 625px) {
+            .siteScreenshots {
+                
+                width: 500px;
+                height: 300px;;
+            }
+            }
+
+            @media (max-width: 625px) {
+                .siteScreenshots {
+                    
+                    width: 450px;
+                    height: 250px;;
+                }
+                }
+
+                @media (max-width: 525px) {
+                    .siteScreenshots {
+                        
+                        width: 400px;
+                        height: 200px;;
+                    }
+                    }
+
+    @media (max-width: 450px) {
+        .siteScreenshots {
+            
+            width: 325px;
             height: 200px;;
         }
         }
 
+        @media (max-width: 400px) {
+            .siteScreenshots {
+                
+                width: 300px;
+                height: 200px;;
+            }
+            }
+
+            @media (max-width: 375px) {
+                .siteScreenshots {
+                    
+                    width: 275px;
+                    height: 150px;;
+                }
+                }
+
         @media (max-width: 340px) {
             .siteScreenshots {
                 
-                width: 450px;
+                width: 250px;
                 height: 150px;;
             }
             }
