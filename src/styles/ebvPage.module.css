@@ -279,6 +279,7 @@
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
+    width: 75%;
 }
 
 @media (max-width: 1600px) {
@@ -292,6 +293,18 @@
     .infoParagraph {
         padding: 1rem 2rem;
         font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .infoParagraph {
+        width: 90%;
+    }
+}
+
+@media (max-width: 450px) {
+    .infoParagraph {
+        padding: 1rem .5rem;
     }
 }
 

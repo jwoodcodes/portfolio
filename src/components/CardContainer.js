@@ -5,6 +5,16 @@ export default function CardContainer() {
     return (
     <div className={styles.cardGridContainer}>
         
+
+        <ProjectCard 
+        imgSrc='/DDAnalyzerScreenshot.png' 
+        altText='Daily Dynasties'
+        title='Daily Dynasties'
+        subTitle='data & interactive user tools app'
+        siteDsc='Fantasy football content and tools site built on a large backend and leveraging multiple databases and APIs. Heavely interactive with real time user tools. Built using React, Nextjs, and MongoDb'
+        projectPageRef='/dailyDynasties'
+        
+        />  
         <ProjectCard 
         imgSrc='/ebvHomeScreenshot.png' 
         altText='ElderBlossom View'
@@ -14,15 +24,7 @@ export default function CardContainer() {
         projectPageRef='/ebv'
         
         />  
-        <ProjectCard 
-        imgSrc='/DDAnalyzerScreenshot.png' 
-        altText='Daily Dynasties'
-        title='Daily Dynasties'
-        subTitle='data & interactive user tools app'
-        siteDsc='Fantasy football content and tools site built on a large backend and leveraging multiple databases and APIs. Heavely interactive with real time user tools. Built using React, Nextjs, and MongoDb'
-        projectPageRef='/'
-        
-        />  
+       
         <ProjectCard 
         imgSrc='/fbScreenshot.png' 
         altText='FB Restaurant'
