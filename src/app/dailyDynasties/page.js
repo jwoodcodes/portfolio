@@ -36,7 +36,7 @@ export default function DailyDynasties() {
                     <br /><br />
                      features next.js static props, mongoDB databases, API and database data fetching, robust data manipulating backend, and sortable React data tables
                     <br/><br/>
-                     Built using React, NextJs, MongoDb, CSS, Web API's 
+                     Built using React, NextJs, MongoDb, CSS, Web APIs 
 
                      <Link href='https://ebv.vercel.app/'  className={styles.siteLink}>Go to Daily Dynasties &rarr;</Link>
                 </p>
