@@ -1,12 +1,21 @@
 
 .wholeWrapper {
 background: linear-gradient(to right, var(--color-blue-primary), var(--color-purple-light), var(--color-green-primary));
+
 height: 10rem;
 width: 100%;
+
 display: flex;
 justify-content: center;
 align-items: center;
 }
+
+@media (max-width: 800px) {
+    .wholeWrapper {
+        height: 8rem;
+        
+    }
+  }
 
 .myName {
     color: var(--color-white);
@@ -15,4 +24,28 @@ align-items: center;
     margin-left: 1.3rem;
     margin-right: 1rem;
 }
+
+@media (max-width: 800px) {
+    .myName {
+        font-size: 1.55rem;
+        letter-spacing: .15rem;
+        
+    }
+  }
+
+  @media (max-width: 380px) {
+    .myName {
+        font-size: 1.25rem;
+        letter-spacing: .1rem;
+        
+    }
+  }
+
+  @media (max-width: 340px) {
+    .myName {
+        font-size: 1rem;
+        letter-spacing: .1rem;
+        
+    }
+  }
 

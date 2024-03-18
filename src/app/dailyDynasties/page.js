@@ -3,12 +3,9 @@ import styles from "@/src/styles/ebvPage.module.css"
 import MainNav from "@/src/components/MainNav"
 import Footer from "@/src/components/Footer"
 import Link from "next/link"
-
-
-
 import { Diphylleia } from 'next/font/google'
 
-export default function EBV() {
+export default function DailyDynasties() {
     return (
         <div className={styles.wholePageWrapper}>
 
@@ -21,7 +18,7 @@ export default function EBV() {
             
             
            
-            <h1 className={styles.mainTitle} >ElderBlossom View</h1>
+            <h1 className={styles.mainTitle} >Daily Dynasties</h1>
             
 
 
@@ -35,13 +32,13 @@ export default function EBV() {
                    
                     <span className={styles.sectionTitle}> Overview </span>
                     <br />
-                     ElderBlossom View is a business content and ecommerce site for an elderberry winery and event venue
+                     Daily Dynasties is a Fantasy football content and user tools site built on a large backend and leveraging multiple databases and APIs. Heavely interactive with real time user tools. Currently in production with active users
                     <br /><br />
-                     features next.js dynamic routing, full cart functionality with local storage, static data fetching from MongoDb, and responsive tables
+                     features next.js static props, mongoDB databases, API and database data fetching, robust data manipulating backend, and sortable React data tables
                     <br/><br/>
-                     Built using React, NextJs, MongoDb, CSS
+                     Built using React, NextJs, MongoDb, CSS, Web APIs 
 
-                     <Link href='https://ebv.vercel.app/'  className={styles.siteLink}>Go to ElderBlossom View &rarr;</Link>
+                     <Link href='https://ebv.vercel.app/'  className={styles.siteLink}>Go to Daily Dynasties &rarr;</Link>
                 </p>
             </div>
 
