@@ -18,11 +18,11 @@ export default function DailyDynasties() {
         contact={"/#contact"}
       />
 
-      <h1 className={styles.mainTitle}>Daily Dynasties</h1>
+      <h1 className={styles.mainTitle}>Flatbranch Pub</h1>
 
       <div className={styles.sectionWrapper}>
         <Image
-          src="/DDScreenshot.png"
+          src="/fbScreenshot.png"
           width={900}
           height={500}
           alt="ebv project home page"
@@ -59,7 +59,7 @@ export default function DailyDynasties() {
 
       <div className={styles.sectionWrapper}>
         <Image
-          src="/DDAnalyzerScreenshot.png"
+          src="/FBBeers.png"
           width={900}
           height={500}
           alt="ebv project shop page"
