@@ -89,27 +89,13 @@ export default function DailyDynasties() {
         <p className={styles.infoParagraph}>
           <span className={styles.sectionTitle}>Challenges faced</span>
           <br />
-          <br /> <br />
-        </p>
-      </div>
-
-      <div className={styles.sectionDividerWrapper}>
-        <div className={styles.sectionDivider}></div>
-      </div>
-
-      <div className={styles.sectionWrapper}>
-        <Image
-          src="/fbShop.png"
-          width={900}
-          height={500}
-          alt="ebv project shop page"
-          className={styles.siteScreenshots}
-        ></Image>
-        <p className={styles.infoParagraph}>
-          <span className={styles.sectionTitle}>
-            Lessons learned while building
-          </span>
-          <br />
+          This was the first time I used SASS on a project and the first time I
+          used some more modern CSS features. It was a hands on way for me to
+          learn and get experience with different layout modes such as flex and
+          grid, as well as image optimization and working with gradients. The
+          main challeneges were consulting resources and learning more about how
+          CSS and the specific newer features of it I was using worked to get
+          them to behave in the way I expected.
           <br /> <br />
         </p>
       </div>
