@@ -9,21 +9,19 @@ export default function Home() {
     <div className={styles.wholeMainPageWrapper}>
       <MainNav projects={"#projects"} about={"#about"} contact={"#contact"} />
       <div className={styles.mainSectionWrapper}>
-      
         <div className={styles.nameAndTitleWrapper}>
           <h1 className={styles.name}>Jay Wood</h1>
           <span className={styles.jobTitle}>Web Developer</span>
           <div className={styles.mainSectionIntro}>
             Hi there! I&apos;m Jay, a web developer from Missouri. I love to
-            take concepts and them into a reality. I am so happy to share what
-            i&apos;ve been working on with you!
+            take concepts and turn them into reality. I am so happy to share
+            what i&apos;ve been working on with you!
           </div>
         </div>
 
         <div className={styles.mainImageContainer}>
           <Image
             src="/coloredSmoke.jpg"
-            
             width="2000"
             height="1200"
             className={styles.mainPageImage}

@@ -470,11 +470,11 @@
   }
 } */
 
-.mainPageImage {
+/* .mainPageImage {
   animation: fadeInAnimation ease-in 2s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-}
+} */
 
 .projectsSectionWrapper {
   width: 100%;
@@ -519,32 +519,26 @@
   /* border-radius: 20px; */
   margin-bottom: -4rem;
 
-  /* animation: spin 2s infinite linear ; */
+  animation: spin 2s infinite linear;
 
-  /* background:
-    
-    linear-gradient(
+  background: linear-gradient(
         to bottom,
 
-        
         oklch(0% 0 0),
-        oklch(0% 0 0) */
-
-  /* oklch(35.56% 0.061 189.91),       
+        oklch(0% 0 0)
+          /* oklch(35.56% 0.061 189.91),       
         oklch(56.45% 0.163 253.27) */
-
-  /* oklch(0.1 0.2 240 / 0.95), */
-  /* oklch(0.1 0.2 240 / 0.95) */
-  /* )
-      padding-box, 
+          /* oklch(0.1 0.2 240 / 0.95), */ /* oklch(0.1 0.2 240 / 0.95) */
+      )
+      padding-box,
     conic-gradient(
         from var(--bg-angle) in oklch longer hue,
-        
+
         oklch(1 0.37 0) 0 0
       )
-      border-box;  */
+      border-box;
 
-  border-bottom: 1px solid #fff;
+  border-bottom: 2px solid transparent;
 }
 
 @media (max-width: 500px) {
@@ -553,12 +547,12 @@
   }
 }
 
-/* .myWorkHeaderContainer:hover {
+.myWorkHeaderContainer:hover {
   border: 2px solid transparent;
   border-radius: 20px;
-  transition: .2s;
-  animation: spin 1.5s infinite linear ;
-} */
+  transition: 0.2s;
+  animation: spin 1.5s infinite linear;
+}
 
 .sectionDividerWrapper {
   background-color: var(--color-black);
@@ -575,7 +569,7 @@
   width: 100%;
   clip-path: polygon(50% 100%, 0 77%, 100% 78%);
 
-  /* clip-path: polygon(50% 100%, 0 86%, 100% 86%); */
+  clip-path: polygon(50% 100%, 0 86%, 100% 86%);
 }
 
 .aboutSectionWrapper {
@@ -679,32 +673,26 @@
   margin-right: auto;
   width: fit-content;
 
-  /* animation: spin 2s infinite linear ; */
+  animation: spin 2s infinite linear;
 
-  /* background:
-    
-    linear-gradient(
+  background: linear-gradient(
         to bottom,
 
-        
         oklch(0% 0 0),
-        oklch(0% 0 0) */
-
-  /* oklch(35.56% 0.061 189.91),       
+        oklch(0% 0 0)
+          /* oklch(35.56% 0.061 189.91),       
         oklch(56.45% 0.163 253.27) */
-
-  /* oklch(0.1 0.2 240 / 0.95), */
-  /* oklch(0.1 0.2 240 / 0.95) */
-  /* )
-      padding-box, 
+          /* oklch(0.1 0.2 240 / 0.95), */ /* oklch(0.1 0.2 240 / 0.95) */
+      )
+      padding-box,
     conic-gradient(
         from var(--bg-angle) in oklch longer hue,
-        
+
         oklch(1 0.37 0) 0 0
       )
-      border-box;  */
+      border-box;
 
-  border-bottom: 1px solid #fff;
+  border-bottom: 2px solid transparent;
 }
 
 @media (max-width: 575px) {
