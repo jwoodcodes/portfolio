@@ -24,8 +24,9 @@ export default function Home() {
             src="/coloredSmoke.jpg"
             width="2000"
             height="1200"
+            priority
             className={styles.mainPageImage}
-            alt="coloerd smoke lines image"
+            alt="coloredd smoke lines image"
           />
         </div>
       </div>

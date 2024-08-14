@@ -100,7 +100,7 @@ export default function DailyDynasties() {
           level and individual player data. One challenege I had was how to
           handle storage and updating of data as a user builds out projections.
           There is also the possability of a user stopping part way through. I
-          settled on building out objects that get mutated as a user goes along
+          settled on building out objects that get updated as a user goes along
           and each time the user finishes a subsection the object in local
           storage gets updated.
           <br />

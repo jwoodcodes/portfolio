@@ -33,7 +33,7 @@ export default function DailyDynasties() {
         <p className={styles.infoParagraph}>
           <span className={styles.sectionTitle}> Overview </span>
           <br />
-          Daily Dynasties is a Fantasy football content and user tools site
+          Daily Dynasties is a fantasy football content and user tools site
           built on a large backend and leveraging multiple databases and APIs.
           Heavely interactive with real time user tools. Currently in production
           with active users
@@ -70,16 +70,17 @@ export default function DailyDynasties() {
             Goal and Reason for building
           </span>
           <br />
-          I built this because I wanted to build a site that was based around
-          content I was passionate about and I thought I could make a production
-          application with active users. I knew that the ideas I had for the
-          site would require learning many things I did not know how to do at
-          the time and it was a chance to explore and learn new things in an
-          active way.
+          I built this app because I wanted to build a somethibg that was based
+          around content I was passionate about. I believed I could make a
+          product that was unique and good enough to be a production application
+          with active users. I knew that the ideas I had for the site would
+          require learning many things I did not know how to do at the time and
+          it was a chance to explore and learn new things in an active way.
           <br /> <br />
           My goal was to build unique user tools that I wish existed but
-          currently did not for my personal use that others would also find
-          useful to drive traffic to the site and form a loyal user base.
+          currently did not. The goal was to be for my personal use as well as
+          others also finding it useful to drive traffic to the site and form a
+          loyal user base.
         </p>
       </div>
 
