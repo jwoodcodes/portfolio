@@ -9,7 +9,7 @@ export default function DailyDynasties() {
   return (
     <div className={styles.wholePageWrapper}>
       <div className={styles.nameAndNav}>
-        <div className={styles.navName}>Jay Wood</div>
+        <div className={styles.navName}>Jordan Wood</div>
       </div>
 
       <MainNav
@@ -32,11 +32,10 @@ export default function DailyDynasties() {
 
         <p className={styles.infoParagraph}>
           <span className={styles.sectionTitle}> Overview </span>
-          <br />
-          A football projection building app I built for myself and people I
-          work with at the Undroppables fantasy football. The app allows you to
-          build projections for a number of stats and fantasy points for all
-          teams and players.
+          <br />A football projection building app.
+          {/* I built for myself and the people I work with at the Undroppables fantasy football.  */}
+          The app allows you to build projections for a number of stats and
+          fantasy points for all teams and players.
           <br />
           <br />
           Built using React, Nextjs, agGrid, and MongoDb
@@ -73,10 +72,10 @@ export default function DailyDynasties() {
           team. It is something a lot of people want to do but its too
           complicated so my goal was to build something that was approachable
           and anyone could use.
-          <br /> <br />I built this because people I work with said they wanted
+          {/* <br /> <br />I built this because people I work with said they wanted
           to make their own projections and the app they used to use was no
           longer in production so they asked if I could build them something to
-          use.
+          use. */}
         </p>
       </div>
 

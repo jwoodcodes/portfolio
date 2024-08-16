@@ -20,14 +20,14 @@ export default function CardContainer() {
         siteDsc="A football projection builder with a user friendly interface and data visualizations. Built using React, Nextjs, AgGrid, and MongoDb"
         projectPageRef="/projectionsBuilder"
       />
-      <ProjectCard
+      {/* <ProjectCard
         imgSrc="/ebvHomeScreenshot.png"
         altText="ElderBlossom View"
         title="ElderBlossom View"
         subTitle="business & ecommerce site"
         siteDsc="Business content site with estore and fully functioning cart for an elderberry winery and events venue. Built using React, Nextjs, and MongoDb"
         projectPageRef="/ebv"
-      />
+      /> */}
     </div>
   );
 }

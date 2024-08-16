@@ -9,7 +9,7 @@ export default function DailyDynasties() {
   return (
     <div className={styles.wholePageWrapper}>
       <div className={styles.nameAndNav}>
-        <div className={styles.navName}>Jay Wood</div>
+        <div className={styles.navName}>Jordan Wood</div>
       </div>
 
       <MainNav
@@ -45,7 +45,10 @@ export default function DailyDynasties() {
           <br />
           <br />
           Built using React, NextJs, MongoDb, CSS, Web APIs
-          <Link href="https://ebv.vercel.app/" className={styles.siteLink}>
+          <Link
+            href="https://dailydynasties.vercel.app/"
+            className={styles.siteLink}
+          >
             Go to Daily Dynasties &rarr;
           </Link>
         </p>

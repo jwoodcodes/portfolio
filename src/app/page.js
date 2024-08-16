@@ -10,10 +10,10 @@ export default function Home() {
       <MainNav projects={"#projects"} about={"#about"} contact={"#contact"} />
       <div className={styles.mainSectionWrapper}>
         <div className={styles.nameAndTitleWrapper}>
-          <h1 className={styles.name}>Jay Wood</h1>
+          <h1 className={styles.name}>Jordan Wood</h1>
           <span className={styles.jobTitle}>Web Developer</span>
           <div className={styles.mainSectionIntro}>
-            Hi there! I&apos;m Jay, a web developer from Missouri. I love to
+            Hi there! I&apos;m Jordan, a web developer from Missouri. I love to
             take concepts and turn them into reality. I am so happy to share
             what i&apos;ve been working on with you!
           </div>
@@ -52,7 +52,7 @@ export default function Home() {
       <div className={styles.aboutSectionWrapper} id="about">
         <h2 className={styles.aboutSectionHeader}>About Me</h2>
         <section className={styles.aboutMeMainSection}>
-          Hi, I&apos;m Jay and I am so happy you&apos;re here!
+          Hi, I&apos;m Jordan and I am so happy you&apos;re here!
           <br />
           <br />
           In early 2001 I stood in the kitchen of an empty restaurant looking
