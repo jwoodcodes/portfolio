@@ -13,7 +13,7 @@ export default function CardContainer() {
         projectPageRef="/dailyDynasties"
       />
       <ProjectCard
-        imgSrc="/UNMain.png"
+        imgSrc="/unMain.png"
         altText="UN Projections Builder"
         title="Projections Builder"
         subTitle="Football Projections App"

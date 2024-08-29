@@ -22,7 +22,7 @@ export default function DailyDynasties() {
 
       <div className={styles.sectionWrapper}>
         <Image
-          src="/UNPlayerLevel.png"
+          src="/unPlayerLevel.png"
           width={900}
           height={500}
           alt="Projections builder app player projections"
@@ -57,7 +57,7 @@ export default function DailyDynasties() {
 
       <div className={styles.sectionWrapper}>
         <Image
-          src="/UNTeamLevel.png"
+          src="/unTeamLevel.png"
           width={900}
           height={500}
           alt="Team level football projections"
@@ -86,7 +86,7 @@ export default function DailyDynasties() {
 
       <div className={styles.sectionWrapper}>
         <Image
-          src="/UNProjectionsGrid.png"
+          src="/unProjectionsGrid.png"
           width={900}
           height={500}
           alt="stats grid of football projecions builder app"
