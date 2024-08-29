@@ -9,7 +9,7 @@ export default function DailyDynasties() {
   return (
     <div className={styles.wholePageWrapper}>
       <div className={styles.nameAndNav}>
-        <div className={styles.navName}>Jordan Wood</div>
+        <div className={styles.navName}>Jay Wood</div>
       </div>
 
       <MainNav
