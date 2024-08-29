@@ -35,7 +35,8 @@ export default function DailyDynasties() {
           <br />A football projection building app.
           {/* I built for myself and the people I work with at the Undroppables fantasy football.  */}
           The app allows you to build projections for a number of stats and
-          fantasy points for all teams and players.
+          fantasy points for all teams and players, stores them in local
+          storage, and creates dynamic tables for all of the users projections.
           <br />
           <br />
           Built using React, Nextjs, agGrid, and MongoDb

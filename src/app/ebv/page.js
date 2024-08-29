@@ -69,12 +69,12 @@ export default function EBV() {
           </span>
           <br />
           I built this because I know the owners of this winery and they are
-          such beautiful people with a gorgous venue and products but their site
-          design didnt show this to the world and I felt like I could do so
+          such beautiful people with a gorgeous venue and products, but their
+          site design didnt show this to the world and I felt like I could do so
           <br /> <br />
-          My goal was to pick a color scheme that went with their products and
-          to use a design that highlighted and showcased their venue and
-          products and let them be the star
+          My goal was to pick a color scheme that went with the buinesess
+          products and to use a design that highlighted and showcased their
+          venue and products and let them be the star
         </p>
       </div>
 

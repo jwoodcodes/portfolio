@@ -10,10 +10,10 @@ export default function Home() {
       <MainNav projects={"#projects"} about={"#about"} contact={"#contact"} />
       <div className={styles.mainSectionWrapper}>
         <div className={styles.nameAndTitleWrapper}>
-          <h1 className={styles.name}>Jordan Wood</h1>
+          <h1 className={styles.name}>Jay Wood</h1>
           <span className={styles.jobTitle}>Web Developer</span>
           <div className={styles.mainSectionIntro}>
-            Hi there! I&apos;m Jordan, a web developer from Missouri. I love to
+            Hi there! I&apos;m Jay, a web developer from Missouri. I love to
             take concepts and turn them into reality. I am so happy to share
             what i&apos;ve been working on with you!
           </div>
@@ -22,11 +22,12 @@ export default function Home() {
         <div className={styles.mainImageContainer}>
           <Image
             src="/coloredSmoke.jpg"
-            width="2000"
-            height="1200"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            fill
             priority
             className={styles.mainPageImage}
-            alt="coloredd smoke lines image"
+            alt="Colored smoke lines"
+            quality={85}
           />
         </div>
       </div>

@@ -76,14 +76,14 @@ export default function DailyDynasties() {
           I built this app because I wanted to build a somethibg that was based
           around content I was passionate about. I believed I could make a
           product that was unique and good enough to be a production application
-          with active users. I knew that the ideas I had for the site would
-          require learning many things I did not know how to do at the time and
-          it was a chance to explore and learn new things in an active way.
+          with active users. This project presented an opportunity to challenge
+          myself, learn new technologies, and apply them in a real-world
+          context, pushing the boundaries of my skills as a developer.
           <br /> <br />
-          My goal was to build unique user tools that I wish existed but
-          currently did not. The goal was to be for my personal use as well as
-          others also finding it useful to drive traffic to the site and form a
-          loyal user base.
+          My goal was to build unique user tools that I wish existed but did not
+          exist elsewhere. The primary aim was to create tools for my personal
+          use, while also providing value to others, thereby attracting traffic
+          to the site and cultivating a dedicated user community.
         </p>
       </div>
 
@@ -138,10 +138,10 @@ export default function DailyDynasties() {
             Lessons learned while building
           </span>
           <br />
-          This is by far the largest app I have built and I learned the hard way
-          how important code structure is in a large application. I learned you
-          need to make a plan for the overall layout and structure of the
-          projects code and file structure before you start coding.
+          This is the largest app I have built and I learned the hard way how
+          important code structure is in a large application. I learned you need
+          to make a plan for the overall layout and structure of the projects
+          code and file structure before you start coding.
           <br /> <br />
           One thing I learned with this being my first application with real
           users is to bring the client or user in sooner for feedback. I spent a
