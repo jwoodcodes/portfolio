@@ -75,7 +75,7 @@ export default function Home() {
           wind at their backs and limitless futures before them.
           <br />
           <br />
-          Since that day my curiosity and excitement has only gained steam. I
+          Since that day my curiosity and excitement have only gained steam. I
           have taken things I thought could be better and built better versions.
           Taken ideas and tools I had mearly wished existed and made them into
           apps anyone in the world can pull up in front of them and use. Every
