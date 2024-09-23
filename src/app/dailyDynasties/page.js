@@ -73,7 +73,7 @@ export default function DailyDynasties() {
             Goal and Reason for building
           </span>
           <br />
-          I built this app because I wanted to build a somethibg that was based
+          I built this app because I wanted to build a something that was based
           around content I was passionate about. I believed I could make a
           product that was unique and good enough to be a production application
           with active users. This project presented an opportunity to challenge
