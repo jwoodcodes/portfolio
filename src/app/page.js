@@ -53,35 +53,16 @@ export default function Home() {
       <div className={styles.aboutSectionWrapper} id="about">
         <h2 className={styles.aboutSectionHeader}>About Me</h2>
         <section className={styles.aboutMeMainSection}>
-          Hi, I&apos;m Jordan and I am so happy you&apos;re here!
+          Hi, I&apos;m Jay and I am so happy you&apos;re here!
           <br />
-          <br />
-          In early 2001 I stood in the kitchen of an empty restaurant looking
-          out a window at a barren downtown. Nothing moved. There was a distinct
-          feeling that the world as we knew it was coming to an end. I was
-          listening to a favorite buddhism podcast and as the host relayed
-          messages of when one door closes another door opens I was struck by
-          the question. <br />
-          What door will I choose to open now that the world&apos;s closed
-          it&apos;s door?
-          <br />
-          <br />
-          As I was looking forward and pondereing what was next, I decided to
-          look back. I always had a curiosity about code since my high school
-          days playing MUDD&apos;s and remembered the feeling of desperately
-          wanting to know how to take an idea and turn it into an experience for
-          someone on a screen. The world had moved on, so I was going to too.
-          All seemed possible as I dove in with all the gusto of one with the
-          wind at their backs and limitless futures before them.
-          <br />
-          <br />
-          Since that day my curiosity and excitement have only gained steam. I
-          have taken things I thought could be better and built better versions.
-          Taken ideas and tools I had mearly wished existed and made them into
-          apps anyone in the world can pull up in front of them and use. Every
-          time I pull up my code editor on a new project, I am back standing in
-          front of that window, with a blank new world in front of me, and I{" "}
-          <em>cannot wait</em> to share that geniuine joy with you!
+
+          As a web developer, I&apos;m driven by an insatiable curiosity and a passion for turning ideas into reality. Every project I work on I am driven by the excitement of learning something new and the thrill of solving complex problems. I thrive on the challenge of taking abstract concepts and transforming them into tangible, user-friendly products that make tasks easier or open new abilites to users. Whether it&apos;s learning a new skill or building a product I am passionate about, I approach each task with enthusiasm and determination.
+
+  My many years of management experience and my collaborative nature allow me to work closely with anyone. I believe that the best solutions emerge when diverse minds come together, and I take pride in my ability to work seamlessly with any team. My adaptability and open-minded approach allow me to integrate quickly into new environments, contributing positively to any team while always being receptive to others inputs and ideas. I truly believe that the best work gets done when everyone has the ability to see things from the other persons point of view, keeps an open mind, and is able to take criticism and turn it into better solutions.  
+
+  In the face of challenges or setbacks, I maintain an unwavering positive attitude. I see obstacles not as roadblocks, but as opportunities for growth and improvement. This optimism, combined with my problem-solving skills, enables me to navigate through difficulties with resilience and creativity. I&apos;m always eager to embrace new technologies and methodologies, knowing that each challenge overcome adds to my skillset and makes me a more versatile developer. My goal is always to push myself when working independently and to be a valuable and collaborative member when working with a team. I cannot wait to hear from you and discuss how I could be of value to your team. 
+
+          
         </section>
       </div>
 
