@@ -57,9 +57,11 @@ export default function Home() {
           <br />
 
           As a web developer, I&apos;m driven by an insatiable curiosity and a passion for turning ideas into reality. Every project I work on I am driven by the excitement of learning something new and the thrill of solving complex problems. I thrive on the challenge of taking abstract concepts and transforming them into tangible, user-friendly products that make tasks easier or open new abilites to users. Whether it&apos;s learning a new skill or building a product I am passionate about, I approach each task with enthusiasm and determination.
-
+          <br />
+          <br />
   My many years of management experience and my collaborative nature allow me to work closely with anyone. I believe that the best solutions emerge when diverse minds come together, and I take pride in my ability to work seamlessly with any team. My adaptability and open-minded approach allow me to integrate quickly into new environments, contributing positively to any team while always being receptive to others inputs and ideas. I truly believe that the best work gets done when everyone has the ability to see things from the other persons point of view, keeps an open mind, and is able to take criticism and turn it into better solutions.  
-
+  <br />
+  <br />
   In the face of challenges or setbacks, I maintain an unwavering positive attitude. I see obstacles not as roadblocks, but as opportunities for growth and improvement. This optimism, combined with my problem-solving skills, enables me to navigate through difficulties with resilience and creativity. I&apos;m always eager to embrace new technologies and methodologies, knowing that each challenge overcome adds to my skillset and makes me a more versatile developer. My goal is always to push myself when working independently and to be a valuable and collaborative member when working with a team. I cannot wait to hear from you and discuss how I could be of value to your team. 
 
           
