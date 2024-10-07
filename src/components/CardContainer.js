@@ -9,8 +9,16 @@ export default function CardContainer() {
         altText="Daily Dynasties"
         title="Daily Dynasties"
         subTitle="data & interactive user tools app"
-        siteDsc="Fantasy football content and tools site built on a large backend and leveraging multiple databases and APIs. Heavely interactive with real time user tools. Built using React, Nextjs, and MongoDb"
+        siteDsc="Content and tools site built on a large backend and leveraging multiple databases and APIs. Heavely interactive with real time user tools. Built using React, Nextjs, and MongoDb"
         projectPageRef="/dailyDynasties"
+      />
+       <ProjectCard
+        imgSrc="/ebvHomeScreenshot.png"
+        altText="ElderBlossom View"
+        title="ElderBlossom View"
+        subTitle="business & ecommerce site"
+        siteDsc="Business content site with estore and fully functioning cart for an elderberry winery and events venue. Built using React, Nextjs, and MongoDb"
+        projectPageRef="/ebv"
       />
       <ProjectCard
         imgSrc="/unMain.png"
@@ -20,14 +28,7 @@ export default function CardContainer() {
         siteDsc="A football projection builder with a user friendly interface and data visualizations. Built using React, Nextjs, AgGrid, and MongoDb"
         projectPageRef="/projectionsBuilder"
       />
-      <ProjectCard
-        imgSrc="/ebvHomeScreenshot.png"
-        altText="ElderBlossom View"
-        title="ElderBlossom View"
-        subTitle="business & ecommerce site"
-        siteDsc="Business content site with estore and fully functioning cart for an elderberry winery and events venue. Built using React, Nextjs, and MongoDb"
-        projectPageRef="/ebv"
-      />
+     
     </div>
   );
 }
