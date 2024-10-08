@@ -14,10 +14,10 @@
   width: 100%;
   text-align: center;
   padding-top: 2rem;
-  margin-bottom: -36rem;
+  /* margin-bottom: -36rem; */
 }
 
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
   .nameAndNav {
     margin-bottom: -30rem;
   }
@@ -27,7 +27,7 @@
   .nameAndNav {
     margin-bottom: -25rem;
   }
-}
+} */
 
 .navName {
   background: linear-gradient(
@@ -42,6 +42,7 @@
   /* margin-right: auto;
     margin-left: auto; */
   margin-top: 2rem;
+  margin-bottom: 2rem;
 
   font-size: 3rem;
   font-weight: 700;

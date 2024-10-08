@@ -11,7 +11,9 @@ const MainNav = ({ projects, about, contact }) => {
         <span></span>
       </div>
       <div className={styles.navLinks}>
+      <a href="/" className={styles.navLink}>Home</a>
         <a href={projects} className={styles.navLink}>Projects</a>
+        
         <a href={about} className={styles.navLink}>About</a>
         <a href={contact} className={styles.navLink}>Contact</a>
       </div>
