@@ -14,7 +14,7 @@ export default function Home() {
           <span className={styles.jobTitle}>Web Developer</span>
           <div className={styles.mainSectionIntro}>
            I&apos;m Jay, a developer from Missouri. I am so happy to share
-            what i&apos;ve been working on with you!
+            what I&apos;ve been working on with you!
           </div>
         </div>
 
@@ -67,7 +67,7 @@ export default function Home() {
   Having over a decade of management experience and my collaborative nature lets me work well with anyone. Having worked closely with and managed all kinds of people in high paced stressful environments, I take pride in, and am uniquely experienced in, getting along with all kinds of people and teams. I adapt easily to new environments and always stay open to others&apos; ideas. I really believe that the best work happens when everyone can see things from each other&apos;s perspective, keeps an open mind, and can take feedback to better themselves and what the team is working on.  
   <br />
   <br />
-  As a genuinely positive person, I am always calm and positive when faced with challenges. My positive mindset, along with my problem-solving skills, helps me come up with creative solutions. Whether working solo or with a team, my aim is to always challenge myself and contribute to the team&apos;s success. I'm excited to connect with you and explore how I can bring value to your team. 
+  As a genuinely positive person, I am always calm and positive when faced with challenges. My positive mindset, along with my problem-solving skills, helps me come up with creative solutions. Whether working solo or with a team, my aim is to always challenge myself and contribute to the team&apos;s success. I&apos;m excited to connect with you and explore how I can bring value to your team. 
 
           
         </section>
