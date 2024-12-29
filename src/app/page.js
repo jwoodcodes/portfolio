@@ -13,8 +13,7 @@ export default function Home() {
           <h1 className={styles.name}>Jay Wood</h1>
           <span className={styles.jobTitle}>Web Developer</span>
           <div className={styles.mainSectionIntro}>
-           I&apos;m Jay, a web developer from Missouri. I love to
-            take concepts and turn them into reality. I am so happy to share
+           I&apos;m Jay, a developer from Missouri. I am so happy to share
             what i&apos;ve been working on with you!
           </div>
         </div>
@@ -56,17 +55,19 @@ export default function Home() {
       <div className={styles.aboutSectionWrapper} id="about">
         <h2 className={styles.aboutSectionHeader}>About Me</h2>
         <section className={styles.aboutMeMainSection}>
-          Hi, I&apos;m Jay and I am so happy you&apos;re here!
+          I&apos;m Jay and I'd love to work with you!
           <br />
           <br />
 
-          As a developer, I&apos;m driven by an never ending curiosity and a passion for turning ideas into reality. Every project I work on I am driven by the excitement of learning something new and the thrill of solving complex problems. I thrive on the challenge of taking abstract concepts and transforming them into tangible, user-friendly products that make tasks easier or open new abilites to users. Whether it&apos;s learning a new skill or building a product I am passionate about, I approach each task with enthusiasm and determination.
+           I thrive on the challenge of taking abstract concepts and transforming them into tangible, user-friendly products that make tasks easier or more enjoyable for users. There is nothing better to me than working with a client and delivering exactly what they were looking for and having users get joy or utility out of apps and tools I build. I am always curious to learn and try new things and take on new challenges because I love expanding what I am capable of building and improving the skills I already have. 
+
+           {/* I&apos;m driven by an never ending curiosity and a passion for turning ideas into reality. Every project I work on I am driven by the excitement of learning something new and the thrill of solving complex problems. */}
           <br />
           <br />
-  My many years of management experience and my collaborative nature allow me to work closely with anyone. I believe that the best solutions emerge when diverse minds come together, and I take pride in my ability to work seamlessly with any team. My adaptability and open-minded approach allow me to integrate quickly into new environments, contributing positively to any team while always being receptive to others inputs and ideas. I truly believe that the best work gets done when everyone has the ability to see things from the other persons point of view, keeps an open mind, and is able to take criticism and turn it into better solutions.  
+  Having over a decade of management experience and my collaborative nature lets me work well with anyone. Having worked closely with and managed all kinds of people in high paced stressful environments, I take pride in, and am uniquely experienced in, getting along with all kinds of people and teams. I adapt easily to new environments and always stay open to others' ideas. I really believe that the best work happens when everyone can see things from each other's perspective, keeps an open mind, and can take feedback to better themselves and what the team is working on.  
   <br />
   <br />
-  In the face of challenges or setbacks, I maintain an unwavering positive attitude. I see obstacles not as roadblocks, but as opportunities for growth and improvement. This optimism, combined with my problem-solving skills, enables me to navigate through difficulties with resilience and creativity. I&apos;m always eager to embrace new technologies and methodologies, knowing that each challenge overcome adds to my skillset and makes me a more versatile developer. My goal is always to push myself when working independently and to be a valuable and collaborative member when working with a team. I cannot wait to hear from you and discuss how I could be of value to your team. 
+  As a genuinely positive person, I am always calm and positive when faced with challenges. My positive mindset, along with my problem-solving skills, helps me come up with creative solutions. Whether working solo or with a team, my aim is to always challenge myself and contribute to the team's success. I'm excited to connect with you and explore how I can bring value to your team. 
 
           
         </section>
