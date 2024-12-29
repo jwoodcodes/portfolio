@@ -55,19 +55,19 @@ export default function Home() {
       <div className={styles.aboutSectionWrapper} id="about">
         <h2 className={styles.aboutSectionHeader}>About Me</h2>
         <section className={styles.aboutMeMainSection}>
-          I&apos;m Jay and I'd love to work with you!
+          I&apos;m Jay and I&apos;d love to work with you!
           <br />
           <br />
 
            I thrive on the challenge of taking abstract concepts and transforming them into tangible, user-friendly products that make tasks easier or more enjoyable for users. There is nothing better to me than working with a client and delivering exactly what they were looking for and having users get joy or utility out of apps and tools I build. I am always curious to learn and try new things and take on new challenges because I love expanding what I am capable of building and improving the skills I already have. 
 
-           {/* I&apos;m driven by an never ending curiosity and a passion for turning ideas into reality. Every project I work on I am driven by the excitement of learning something new and the thrill of solving complex problems. */}
+          
           <br />
           <br />
-  Having over a decade of management experience and my collaborative nature lets me work well with anyone. Having worked closely with and managed all kinds of people in high paced stressful environments, I take pride in, and am uniquely experienced in, getting along with all kinds of people and teams. I adapt easily to new environments and always stay open to others' ideas. I really believe that the best work happens when everyone can see things from each other's perspective, keeps an open mind, and can take feedback to better themselves and what the team is working on.  
+  Having over a decade of management experience and my collaborative nature lets me work well with anyone. Having worked closely with and managed all kinds of people in high paced stressful environments, I take pride in, and am uniquely experienced in, getting along with all kinds of people and teams. I adapt easily to new environments and always stay open to others&apos; ideas. I really believe that the best work happens when everyone can see things from each other&apos;s perspective, keeps an open mind, and can take feedback to better themselves and what the team is working on.  
   <br />
   <br />
-  As a genuinely positive person, I am always calm and positive when faced with challenges. My positive mindset, along with my problem-solving skills, helps me come up with creative solutions. Whether working solo or with a team, my aim is to always challenge myself and contribute to the team's success. I'm excited to connect with you and explore how I can bring value to your team. 
+  As a genuinely positive person, I am always calm and positive when faced with challenges. My positive mindset, along with my problem-solving skills, helps me come up with creative solutions. Whether working solo or with a team, my aim is to always challenge myself and contribute to the team&apos;s success. I'm excited to connect with you and explore how I can bring value to your team. 
 
           
         </section>
