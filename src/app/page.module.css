@@ -308,12 +308,12 @@
 }
 
 .name {
-  color: var(--color-white);
+  color: var(--color-gray-400);
   font-size: 3rem;
   font-weight: 100;
   letter-spacing: 0.3rem;
-  text-decoration: underline var(--color-blue-primary);
-  text-decoration-thickness: 0.25px;
+  /* text-decoration: underline var(--color-blue-primary);
+  text-decoration-thickness: 0.25px; */
   margin-bottom: -0.75rem;
   padding-right: 50%;
 }
@@ -379,7 +379,7 @@
 }
 
 .mainSectionIntro {
-  color: var(--color-white);
+  color: var(--color-gray-500);
   margin-top: 25%;
   margin-left: 50%;
   text-align: center;
@@ -545,23 +545,24 @@
 .projectsSectionWrapper {
   width: 100%;
   background-color: var(--color-black);
-  padding-top: 4rem;
+  padding-top: 6rem;
   padding-bottom: 2rem;
 }
 
 .projectsHeader {
-  color: var(--color-blue-light);
+  /* color: var(--color-blue-light); */
+  color: var(--color-gray-400);
   /* margin-top: 6rem; */
   text-align: center;
-  font-size: 4rem;
-  letter-spacing: 0.3rem;
+  font-size: 3.15rem;
+  letter-spacing: 0.6rem;
   font-weight: 100;
-  padding: 0.5rem 1.5rem;
+  padding: 0 1.5rem;
 }
 
 @media (max-width: 575px) {
   .projectsHeader {
-    font-size: 3rem;
+    font-size: 2.75rem;
   }
 }
 
@@ -604,7 +605,8 @@
       )
       border-box;
 
-  border-bottom: 2px solid transparent;
+  /* border-bottom: 2px solid transparent; */
+  /* border-bottom: 2px solid var(--color-gray-300); */
 }
 
 @media (max-width: 500px) {
@@ -645,9 +647,16 @@
 }
 
 .aboutSectionHeader {
-  color: var(--color-blue-light);
+  /* color: var(--color-blue-light); */
+
+  color: var(--color-gray-400);
+  /* margin-top: 6rem; */
+ 
+  font-size: 3.15rem;
+  letter-spacing: 0.6rem;
+
   font-weight: 100;
-  font-size: 4rem;
+  /* font-size: 4rem; */
   text-align: center;
   margin-bottom: 4rem;
   margin-left: auto;
@@ -685,13 +694,13 @@
 }
 
 .aboutMeMainSection {
-  color: var(--color-white);
+  color: var(--color-gray-800);
   width: 75%;
   text-align: center;
   margin: 0 auto;
   /* margin-bottom: 12rem; */
 
-  letter-spacing: 0.3;
+  letter-spacing: 0.1rem;
   line-height: 2.2rem;
   font-size: 1.6rem;
 }
@@ -731,6 +740,8 @@
 
 .contactSectionHeading {
   color: var(--color-blue-light);
+  /* color: var(--color-gray-400); */
+  letter-spacing: .2rem;
   font-weight: 100;
   font-size: 4rem;
   text-align: center;
