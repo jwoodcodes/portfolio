@@ -11,7 +11,7 @@ export default function Home() {
       <div className={styles.mainSectionWrapper}>
         <div className={styles.nameAndTitleWrapper}>
           <h1 className={styles.name}>Jay Wood</h1>
-          <span className={styles.jobTitle}>Web Developer</span>
+          <span className={styles.jobTitle}>Full Stack Developer</span>
           <div className={styles.mainSectionIntro}>
            I&apos;m Jay, a developer from Missouri. I am so happy to share
             what I&apos;ve been working on with you!

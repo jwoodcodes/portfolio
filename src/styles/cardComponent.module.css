@@ -86,7 +86,7 @@
   align-items: center;
   justify-content: space-around;
   text-align: center;
-  color: var(--color-white);
+  color: var(--color-gray-700);
 
   animation: spin 2s infinite linear;
 
@@ -124,17 +124,19 @@
 
 .projectCardTitle {
   font-size: 1.5rem;
-  letter-spacing: 0.1;
+  letter-spacing: 0.15rem;
 }
 
 @media (max-width: 400px) {
   .projectCardTitle {
     font-size: 1.25rem;
+    letter-spacing: 0.1rem;
   }
 }
 
 .projectCardBriefDisc {
   padding: 0 0.5rem;
+  font-size: 1.2rem;
 }
 
 @media (max-width: 400px) {
@@ -145,7 +147,7 @@
 }
 
 .projectCardLinks {
-  color: var(--color-white);
+  color: var(--color-gray-800);
   font-size: 1.25rem;
   padding: 0 1rem;
   text-decoration: none;
