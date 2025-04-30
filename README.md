@@ -1,5 +1,7 @@
 # Jay Wood's Portfolio
 
+visit at https://jaywood.vercel.app/
+
 A modern, responsive portfolio website built with Next.js showcasing my projects and skills as a Full Stack Developer.
 
 ![Portfolio Preview](/public/homeScreenShotForReadMe.png)
@@ -21,5 +23,33 @@ A modern, responsive portfolio website built with Next.js showcasing my projects
 - [Vercel Analytics](https://vercel.com/analytics) - Performance monitoring
 - [Google Fonts](https://fonts.google.com/) - Manrope, Roboto, and Inter fonts
 
-## 📂 Project Structure
+
+## 🔍 Project Showcase
+
+The portfolio features three main projects:
+
+1. **Daily Dynasties**
+   - Fantasy football content and user tools site
+   - Built with React, Next.js, and MongoDB
+   - Features interactive user tools and real-time data
+
+2. **ElderBlossom View**
+   - Business and e-commerce site for a winery
+   - Full cart functionality with local storage
+   - Dynamic routing and responsive design
+
+3. **Projections Builder**
+   - Football projection building application
+   - Interactive data tables using AgGrid
+   - Complex state management and data visualization
+
+
+
+## 📫 Contact
+
+For any inquiries, you can reach me at:
+- Email: jwoodcodes@gmail.com
+
+
+
 
