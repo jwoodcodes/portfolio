@@ -8,9 +8,10 @@ A modern, responsive portfolio website built with Next.js showcasing my projects
 
 ## 🚀 Features
 
-- Responsive design that works across all devices
+
 - Modern, clean UI with smooth navigation
 - Project showcase with detailed case studies
+- Responsive design that works across all devices
 - Interactive components
 - Fast loading with Next.js image optimization
 - Analytics integration with Vercel
@@ -21,7 +22,6 @@ A modern, responsive portfolio website built with Next.js showcasing my projects
 - [React](https://reactjs.org/) - JavaScript library for user interfaces
 - [CSS Modules](https://github.com/css-modules/css-modules) - Scoped styling
 - [Vercel Analytics](https://vercel.com/analytics) - Performance monitoring
-- [Google Fonts](https://fonts.google.com/) - Manrope, Roboto, and Inter fonts
 
 
 ## 🔍 Project Showcase
