@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio website built with Next.js showcasing my projects and skills as a Full Stack Developer.
 
-![Portfolio Preview](/public/homeScreenShotForReadMe.jpg)
+![Portfolio Preview](/public/homeScreenShotForReadMe.png)
 
 ## 🚀 Features
 
