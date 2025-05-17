@@ -4,6 +4,14 @@ import ProjectCard from "../components/ProjectCard";
 export default function CardContainer() {
   return (
     <div className={styles.cardGridContainer}>
+        <ProjectCard
+        imgSrc="/originalHome.png"
+        altText="Prospect Data Visualizer"
+        title="Rookie Guide"
+        subTitle="Football Data Visualizer"
+        siteDsc="A football prospect data interface with interactive filters and comaparison visualizations. Built using React, Nextjs, AgGrid, and MongoDb"
+        projectPageRef="/prospectDataVisualizer"
+      />
       <ProjectCard
         imgSrc="/DDAnalyzerScreenshot.png"
         altText="Daily Dynasties"
@@ -20,14 +28,14 @@ export default function CardContainer() {
         siteDsc="Business content site with estore and fully functioning cart for an elderberry winery and events venue. Built using React, Nextjs, and MongoDb"
         projectPageRef="/ebv"
       />
-      <ProjectCard
+      {/* <ProjectCard
         imgSrc="/unMain.png"
         altText="UN Projections Builder"
         title="Projections Builder"
         subTitle="Football Projections App"
         siteDsc="A football projection builder with a user friendly interface and data visualizations. Built using React, Nextjs, AgGrid, and MongoDb"
         projectPageRef="/projectionsBuilder"
-      />
+      /> */}
      
     </div>
   );
