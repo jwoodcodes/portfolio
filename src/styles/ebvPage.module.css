@@ -30,13 +30,12 @@
 } */
 
 .navName {
-  background: linear-gradient(
-    to right,
-    var(--color-blue-primary),
-    var(--color-purple-light),
-    var(--color-green-primary)
-  );
+  background: linear-gradient(to right,
+      var(--color-blue-primary),
+      var(--color-purple-light),
+      var(--color-green-primary));
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   /* color: var(--color-blue-light); */
   /* margin-right: auto;
@@ -76,15 +75,14 @@
     }
 } */
 
+
 .mainTitle {
-  color: var(--color-white);
+  color: var(--color-text-primary);
   text-align: center;
   font-size: 3.75rem;
-  letter-spacing: 0.5rem;
-  font-weight: 100;
+  letter-spacing: 0.2rem;
+  font-weight: 300;
   margin-bottom: 4.5rem;
-
-  font-family: "Diphylleia", serif;
 }
 
 @media (max-width: 1150px) {
@@ -149,20 +147,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 3rem;
+  margin-bottom: 6rem;
   padding: 0 2rem;
 }
+
 /* } */
 
-@media (max-width: 1275px) {
-  .sectionWrapper {
-    /* padding: 4rem; */
-  }
-}
+
 
 .siteScreenshots {
-  border-radius: 20px;
-  border: 1px solid var(--color-white);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-lg);
 }
 
 @media (max-width: 1275px) {
@@ -236,11 +232,11 @@
 }
 
 .sectionTitle {
-  color: var(--color-blue-light);
+  color: var(--color-primary);
   font-size: 2.5rem;
-  font-weight: 700;
+  font-weight: 400;
   margin-top: 3rem;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.05em;
 }
 
 @media (max-width: 450px) {
@@ -256,15 +252,16 @@
 }
 
 .infoParagraph {
-  color: var(--color-white);
+  color: var(--color-text-secondary);
   text-align: center;
   padding: 1rem 4rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   width: 75%;
+  line-height: 1.7;
 }
 
 @media (max-width: 1600px) {
@@ -338,12 +335,10 @@
 }
 
 .sectionDivider {
-  background: linear-gradient(
-    to right,
-    var(--color-blue-primary),
-    var(--color-purple-light),
-    var(--color-green-primary)
-  );
+  background: linear-gradient(to right,
+      var(--color-blue-primary),
+      var(--color-purple-light),
+      var(--color-green-primary));
   height: 1rem;
   width: 100%;
   clip-path: polygon(50% 100%, 0 77%, 100% 78%);

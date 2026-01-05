@@ -1,51 +1,28 @@
-
 .wholeWrapper {
-background: linear-gradient(to right, var(--color-blue-primary), var(--color-purple-light), var(--color-green-primary));
-
-height: 10rem;
-width: 100%;
-
-display: flex;
-justify-content: center;
-align-items: center;
+  background-color: var(--color-surface);
+  border-top: 1px solid var(--color-border);
+  padding: var(--space-8);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-4);
 }
-
-@media (max-width: 800px) {
-    .wholeWrapper {
-        height: 8rem;
-        
-    }
-  }
 
 .myName {
-    color: var(--color-white);
-    font-size: 2.25rem;
-    letter-spacing: .2rem;
-    margin-left: 1.3rem;
-    margin-right: 1rem;
+  color: var(--color-text-secondary);
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
 }
 
-@media (max-width: 800px) {
-    .myName {
-        font-size: 1.55rem;
-        letter-spacing: .15rem;
-        
-    }
-  }
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity var(--transition-fast);
+}
 
-  @media (max-width: 380px) {
-    .myName {
-        font-size: 1.25rem;
-        letter-spacing: .1rem;
-        
-    }
-  }
-
-  @media (max-width: 340px) {
-    .myName {
-        font-size: 1rem;
-        letter-spacing: .1rem;
-        
-    }
-  }
-
+.link:hover {
+  opacity: 0.8;
+}

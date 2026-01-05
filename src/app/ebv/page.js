@@ -4,7 +4,7 @@ import MainNav from "@/src/components/MainNav";
 import Footer from "@/src/components/Footer";
 import Link from "next/link";
 
-import { Diphylleia } from "next/font/google";
+
 
 export default function EBV() {
   return (
