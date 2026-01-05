@@ -3,7 +3,7 @@ import styles from "@/src/styles/ebvPage.module.css";
 import MainNav from "@/src/components/MainNav";
 import Footer from "@/src/components/Footer";
 import Link from "next/link";
-import { Diphylleia } from "next/font/google";
+
 
 export default function DailyDynasties() {
   return (
@@ -22,7 +22,7 @@ export default function DailyDynasties() {
 
       <div className={styles.sectionWrapper}>
         <Image
-          src="/DDScreenshot.png"
+          src="/DDDarkMain.png"
           width={900}
           height={500}
           alt="ebv project home page"
@@ -62,7 +62,7 @@ export default function DailyDynasties() {
 
       <div className={styles.sectionWrapper}>
         <Image
-          src="/DDAnalyzerScreenshot.png"
+          src="/DDDarkTradeAnalyzer.png"
           width={900}
           height={500}
           alt="ebv project shop page"
@@ -93,7 +93,7 @@ export default function DailyDynasties() {
 
       <div className={styles.sectionWrapper}>
         <Image
-          src="/DDDynastyRankingsScreenshot.png"
+          src="/DDDarkDynastyRankings.png"
           width={900}
           height={500}
           alt="ebv project shop page"
@@ -127,7 +127,7 @@ export default function DailyDynasties() {
 
       <div className={styles.sectionWrapper}>
         <Image
-          src="/DDWeeklyProjections.png"
+          src="/DDDarkWeeklyProjections.png"
           width={900}
           height={500}
           alt="ebv project shop page"

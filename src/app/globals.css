@@ -1,7 +1,9 @@
 /*
   1. Use a more-intuitive box-sizing model.
 */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -15,7 +17,8 @@
 /*
   3. Allow percentage-based heights in the application
 */
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -25,14 +28,22 @@ html, body {
   5. Improve text rendering
 */
 body {
-  line-height: 1.5;
+  line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+  /* Fallback font until Inter is loaded in layout */
+  font-family: sans-serif;
 }
 
 /*
   6. Improve media defaults
 */
-img, picture, video, canvas, svg {
+img,
+picture,
+video,
+canvas,
+svg {
   display: block;
   max-width: 100%;
 }
@@ -40,53 +51,103 @@ img, picture, video, canvas, svg {
 /*
   7. Remove built-in form typography styles
 */
-input, button, textarea, select {
+input,
+button,
+textarea,
+select {
   font: inherit;
 }
 
 /*
   8. Avoid text overflows
 */
-p, h1, h2, h3, h4, h5, h6 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   overflow-wrap: break-word;
 }
 
 /*
   9. Create a root stacking context
 */
-#root, #__next {
+#root,
+#__next {
   isolation: isolate;
 }
 
-/* custom site color variables */
+/* Custom Design System Variables */
 
-html {
-  /* black and white */
-  --color-black: #000000;
-  --color-white: hsl(210deg, 25%, 96%);
+:root {
+  /* 
+    Color Palette - Dark Mode Premium 
+    Backgrounds: Deep almost-black for depth
+  */
+  --color-background: #0a0a0a;
+  --color-surface: #171717;
+  --color-surface-hover: #262626;
+  --color-border: #404040;
 
-  /* greys */
-  --color-gray-50: hsl(210deg, 19%, 10%);
-  --color-gray-100: hsl(210deg, 15%, 20%);
-  --color-gray-200: hsl(210deg, 15%, 25%);
-  --color-gray-300: hsl(210deg, 10%, 40%);
-  --color-gray-400: hsl(210deg, 9%, 45%);
-  --color-gray-500: hsl(210deg, 8%, 50%);
-  --color-gray-600: hsl(210deg, 12%, 55%);
-  --color-gray-700: hsl(210deg, 14%, 66%);
-  --color-gray-800: hsl(210deg, 20%, 77%);
-  --color-gray-900: hsl(210deg, 25%, 88%);
+  /* Text Colors */
+  --color-text-primary: #ededed;
+  --color-text-secondary: #a1a1aa;
+  --color-text-tertiary: #52525b;
 
-  /* primary and accent colors */
-  --color-green-primary: #004643;
-  --color-green-light: #9ad0d6;
-  --color-green-dark: #003d27;
-  
-  --color-blue-light: #03A9F4;
-  --color-blue-primary: #1976D2;
-  --color-blue-dark: #0D4770;
+  /* Brand / Accent Colors - Electric Teal & Violet */
+  --color-primary: #0d9488;
+  /* Teal 600 - Deeper/Darker Teal */
+  --color-primary-hover: #0f766e;
+  /* Teal 700 */
+  --color-primary-glow: rgba(13, 148, 136, 0.25);
 
-  --color-purple-light: #9575CD;
-  --color-purple-primary: #311B92;
-  --color-purple-dark: #1A237E;
+  --color-secondary: #8b5cf6;
+  /* Violet 500 */
+  --color-secondary-hover: #7c3aed;
+  /* Violet 600 */
+
+  --color-accent-gradient: linear-gradient(135deg, #0d9488 0%, #8b5cf6 100%);
+
+  /* Spacing System */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-24: 6rem;
+
+  /* Borders & Radius */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-glow: 0 0 20px var(--color-primary-glow);
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Utilities */
+.glass {
+  background: rgba(23, 23, 23, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Selection color */
+::selection {
+  background-color: var(--color-primary);
+  color: #000;
 }

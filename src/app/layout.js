@@ -1,26 +1,25 @@
 import './globals.css'
 import { Analytics } from "@vercel/analytics/react";
-import { Manrope, Roboto, Inter } from 'next/font/google'
+import { Inter } from 'next/font/google'
 
-
-const roboto = Roboto({ subsets: ['latin'], display: 'swap', weight: '100'})
-const manrope = Manrope({ subsets: ['latin'], display: 'swap', weight: '200'})
-const inter = Manrope({ subsets: ['latin'], display: 'swap', weight: '200'})
-
-
+const inter = Inter({ 
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-inter',
+})
 
 export const metadata = {
-  title: 'Jay Wood Dev',
-  description: 'Jay Wood Developer Portfilio',
+  title: 'Jay Wood | Full Stack Developer',
+  description: 'Portfolio of Jay Wood, a Full Stack Developer specializing in modern web applications.',
 }
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body >
+    <html lang="en" className={inter.variable}>
+      <body className={inter.className}>
         {children}
         <Analytics />
-        </body>
+      </body>
     </html>
   )
 }

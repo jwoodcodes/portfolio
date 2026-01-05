@@ -3,28 +3,26 @@ import styles from "@/src/styles/footer.module.css";
 import Link from "next/link";
 import Image from "next/image";
 
-// import { Github } from 'react-feather'
-
 export default function Footer() {
   return (
-    <div className={styles.wholeWrapper}>
-      <Link href="https://github.com/jwoodcodes">
+    <footer className={styles.wholeWrapper}>
+      <Link href="https://github.com/jwoodcodes" target="_blank" className={styles.link}>
         <Image
           src="/github-mark-white.png"
-          width={60}
-          height={60}
-          alt="github link"
-        ></Image>
+          width={24}
+          height={24}
+          alt="GitHub"
+        />
       </Link>
-      <div className={styles.myName}>Jay Wood 2024</div>
-      <Link href="https://www.linkedin.com/in/jay-wood-131432263/">
+      <div className={styles.myName}>© {new Date().getFullYear()} Jay Wood</div>
+      <Link href="https://www.linkedin.com/in/jay-wood-131432263/" target="_blank" className={styles.link}>
         <Image
           src="/linkedin.png"
-          width={80}
-          height={80}
-          alt="github link"
-        ></Image>
+          width={24}
+          height={24}
+          alt="LinkedIn"
+        />
       </Link>
-    </div>
+    </footer>
   );
 }
