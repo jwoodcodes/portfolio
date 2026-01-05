@@ -35,7 +35,7 @@ export default function OTCFantasy() {
                     <br />
                     OTC Fantasy features a groundbreaking AI-driven data interface that allows users to query complex stats using natural language.
                     <br /><br />
-                    I developed a custom natural language to SQL search engine, powered by a fine-tuned system prompt and a custom-built evaluations pipeline to ensure accuracy. Users can simply ask questions like "Who had the most rushing yards in week 10?" and get instant data-backed answers.
+                    I developed a custom natural language to SQL search engine, powered by a fine-tuned system prompt and a custom-built evaluations pipeline to ensure accuracy. Users can simply ask questions like &quot;Who had the most rushing yards in week 10?&quot; and get instant data-backed answers.
                     <br />
                     <Link
                         href="https://otc-fantasy.com/"
@@ -66,7 +66,7 @@ export default function OTCFantasy() {
                     <br />
                     Beyond standard rankings, OTC Fantasy allows users to track player values based on real-world market and trade data.
                     <br /> <br />
-                    The platform aggregates data to provide realistic "market blue book" values, helping users make informed trade decisions in their dynasty leagues.
+                    The platform aggregates data to provide realistic &quot;market blue book&quot; values, helping users make informed trade decisions in their dynasty leagues.
                 </p>
             </div>
 
