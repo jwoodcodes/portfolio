@@ -38,7 +38,7 @@ export default function OTCFantasy() {
                     I developed a custom natural language to SQL search engine, powered by a fine-tuned system prompt and a custom-built evaluations pipeline to ensure accuracy. Users can simply ask questions like &quot;Who had the most rushing yards in week 10?&quot; and get instant data-backed answers.
                     <br />
                     <Link
-                        href="https://otc-fantasy.com/"
+                        href="https://tools.otcfantasy.football/"
                         className={styles.siteLink}
                     >
                         Go to OTC Fantasy &rarr;
