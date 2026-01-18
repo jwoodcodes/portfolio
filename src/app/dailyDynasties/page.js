@@ -23,10 +23,11 @@ export default function DailyDynasties() {
       <div className={styles.sectionWrapper}>
         <Image
           src="/DDDarkMain.png"
-          width={900}
-          height={500}
+          width={1350}
+          height={750}
           alt="ebv project home page"
           priority
+          quality={90}
           className={styles.siteScreenshots}
         ></Image>
 
@@ -63,9 +64,10 @@ export default function DailyDynasties() {
       <div className={styles.sectionWrapper}>
         <Image
           src="/DDDarkTradeAnalyzer.png"
-          width={900}
-          height={500}
+          width={1350}
+          height={750}
           alt="ebv project shop page"
+          quality={90}
           className={styles.siteScreenshots}
         ></Image>
         <p className={styles.infoParagraph}>
@@ -94,9 +96,10 @@ export default function DailyDynasties() {
       <div className={styles.sectionWrapper}>
         <Image
           src="/DDDarkDynastyRankings.png"
-          width={900}
-          height={500}
+          width={1350}
+          height={750}
           alt="ebv project shop page"
+          quality={90}
           className={styles.siteScreenshots}
         ></Image>
         <p className={styles.infoParagraph}>
@@ -128,9 +131,10 @@ export default function DailyDynasties() {
       <div className={styles.sectionWrapper}>
         <Image
           src="/DDDarkWeeklyProjections.png"
-          width={900}
-          height={500}
+          width={1350}
+          height={750}
           alt="ebv project shop page"
+          quality={90}
           className={styles.siteScreenshots}
         ></Image>
         <p className={styles.infoParagraph}>

@@ -23,10 +23,11 @@ export default function ProspectDataVisualizer() {
       <div className={styles.sectionWrapper}>
         <Image
           src="/nameAndInfo.png"
-          width={900}
-          height={500}
+          width={1350}
+          height={750}
           alt="ebv project home page"
           priority
+          quality={90}
           className={styles.siteScreenshots}
         ></Image>
 
@@ -58,9 +59,10 @@ export default function ProspectDataVisualizer() {
       <div className={styles.sectionWrapper}>
         <Image
           src="/scatterPlot.png"
-          width={900}
-          height={500}
+          width={1350}
+          height={750}
           alt="ebv project shop page"
+          quality={90}
           className={styles.siteScreenshots}
         ></Image>
         <p className={styles.infoParagraph}>
@@ -68,9 +70,9 @@ export default function ProspectDataVisualizer() {
             Goal and Reason for building
           </span>
           <br />
-          The FFAstronauts had a large of data and player grades from their analysis and film work, but not the technical knowledge to package it in a way the user could consume it, let alone interact with it. I have previously done freelance work for them so they hired me to build a UI for thier data. 
+          The FFAstronauts had a large of data and player grades from their analysis and film work, but not the technical knowledge to package it in a way the user could consume it, let alone interact with it. I have previously done freelance work for them so they hired me to build a UI for thier data.
           <br /> <br />
-          I wanted to elevate the product they had deleived in years prior and succeeded in delivering on the clients vision and tripling the sales of the product from the previous year. 
+          I wanted to elevate the product they had deleived in years prior and succeeded in delivering on the clients vision and tripling the sales of the product from the previous year.
         </p>
       </div>
 
@@ -81,9 +83,10 @@ export default function ProspectDataVisualizer() {
       <div className={styles.sectionWrapper}>
         <Image
           src="/spidercharts.png"
-          width={900}
-          height={500}
+          width={1350}
+          height={750}
           alt="ebv project shop page"
+          quality={90}
           className={styles.siteScreenshots}
         ></Image>
         <p className={styles.infoParagraph}>
@@ -107,9 +110,10 @@ export default function ProspectDataVisualizer() {
       <div className={styles.sectionWrapper}>
         <Image
           src="/newHome.png"
-          width={900}
-          height={500}
+          width={1350}
+          height={750}
           alt="ebv project shop page"
+          quality={90}
           className={styles.siteScreenshots}
         ></Image>
         <p className={styles.infoParagraph}>
@@ -117,9 +121,9 @@ export default function ProspectDataVisualizer() {
             Lessons learned while building
           </span>
           <br />
-          I really learned a ton building this app and working with the client on it. I had to go beyond the knowledge I had to figure out how to do things the client wanted. I learned to trust my inuition in a lot of places as well. There were times I was planning how to impliment a certian feature and asked Claude how they would recommened doing it and was able to read the suggestion and think I knew a better way to get the same result and was able to execute my plan. 
+          I really learned a ton building this app and working with the client on it. I had to go beyond the knowledge I had to figure out how to do things the client wanted. I learned to trust my inuition in a lot of places as well. There were times I was planning how to impliment a certian feature and asked Claude how they would recommened doing it and was able to read the suggestion and think I knew a better way to get the same result and was able to execute my plan.
           <br /> <br />
-          The other big lessons I learned were with the client interaction. I built out features and UI&apos;s that I thought looked and functioned really well that ended up not being used at all in the final product. I learned to make sure there is a well drawn out and detailed plan with the client before starting. Be flexable to changes after that, but have a more firm baseline understanding to start with 
+          The other big lessons I learned were with the client interaction. I built out features and UI&apos;s that I thought looked and functioned really well that ended up not being used at all in the final product. I learned to make sure there is a well drawn out and detailed plan with the client before starting. Be flexable to changes after that, but have a more firm baseline understanding to start with
         </p>
       </div>
 

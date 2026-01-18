@@ -23,10 +23,11 @@ export default function OTCFantasy() {
             <div className={styles.sectionWrapper}>
                 <Image
                     src="/OTCEngineMain.png"
-                    width={900}
-                    height={500}
+                    width={1350}
+                    height={750}
                     alt="OTC Fantasy Main Interface"
                     priority
+                    quality={90}
                     className={styles.siteScreenshots}
                 ></Image>
 
@@ -54,9 +55,10 @@ export default function OTCFantasy() {
             <div className={styles.sectionWrapper}>
                 <Image
                     src="/OTCEngineWeeklyView.png"
-                    width={900}
-                    height={500}
+                    width={1350}
+                    height={750}
                     alt="OTC Fantasy Dynasty Market Values"
+                    quality={90}
                     className={styles.siteScreenshots}
                 ></Image>
                 <p className={styles.infoParagraph}>
@@ -78,9 +80,10 @@ export default function OTCFantasy() {
             <div className={styles.sectionWrapper}>
                 <Image
                     src="/OTCEngineChartView.png"
-                    width={900}
-                    height={500}
+                    width={1350}
+                    height={750}
                     alt="OTC Fantasy Chart View"
+                    quality={90}
                     className={styles.siteScreenshots}
                 ></Image>
                 <p className={styles.infoParagraph}>

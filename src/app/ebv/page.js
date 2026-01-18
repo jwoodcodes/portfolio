@@ -24,10 +24,11 @@ export default function EBV() {
       <div className={styles.sectionWrapper}>
         <Image
           src="/ebvHomeScreenshot.png"
-          width={900}
-          height={500}
+          width={1350}
+          height={750}
           alt="ebv project home page"
           priority
+          quality={90}
           className={styles.siteScreenshots}
         ></Image>
 
@@ -58,9 +59,10 @@ export default function EBV() {
       <div className={styles.sectionWrapper}>
         <Image
           src="/ebvScreenshot.png"
-          width={900}
-          height={500}
+          width={1350}
+          height={750}
           alt="ebv project shop page"
+          quality={90}
           className={styles.siteScreenshots}
         ></Image>
         <p className={styles.infoParagraph}>
@@ -85,9 +87,10 @@ export default function EBV() {
       <div className={styles.sectionWrapper}>
         <Image
           src="/ebvPhotoGallery.png"
-          width={900}
-          height={500}
+          width={1350}
+          height={750}
           alt="ebv project shop page"
+          quality={90}
           className={styles.siteScreenshots}
           style={{ border: "1px solid #FFF" }}
         ></Image>
@@ -111,9 +114,10 @@ export default function EBV() {
       <div className={styles.sectionWrapper}>
         <Image
           src="/ebvEventsScreenshot.png"
-          width={900}
-          height={500}
+          width={1350}
+          height={750}
           alt="ebv project shop page"
+          quality={90}
           className={styles.siteScreenshots}
         ></Image>
         <p className={styles.infoParagraph}>
